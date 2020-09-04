@@ -1,0 +1,14 @@
+---
+title: "Assignment 1"
+author: "Chris Dsida"
+date: "9/4/2020"
+output: html_document
+---
+
+# This is a header
+
+This is text
+
+## Sub-heading
+
+more text
