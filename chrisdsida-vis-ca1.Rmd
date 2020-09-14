@@ -1,0 +1,155 @@
+---
+title: "Census Practice"
+author: "Chris Dsida"
+date: "9/6/2020"
+output: html_document
+---
+
+```{r}
+
+library(ggplot2)
+library(tidycensus)
+library(tidyverse)
+```
+
+```{r}
+area_vars_2018 <- load_variables(2018, "acs5")
+```
+
+```{r load area variables, results = 'hide'}
+vars <- c(med_hh_inc = "B19013_001",
+         tot_vac = "B25002_003",
+         tot_unit = "B25002_001",
+         med_mhcost = "B25104_001",
+         drv_solo = "B08006_003",
+         crpl = "B08006_004",
+         transit = "B08006_008",
+         bike = "B08006_014",
+         walk = "B08006_015",
+         tot_br = "B25041_001",
+         tot_pop = "B00001_001"
+         )
+
+ma_counties <- c("Norfolk", "Suffolk", "Essex", "Middlesex", "Plymouth")
+
+grbos_tracts <- get_acs(geography = "tract",
+                        variables = vars,
+                        output = "wide",
+                        state = "MA",
+                        county = ma_counties) %>%
+  
+mutate(hcburden = med_mhcostE / (med_hh_incE / 12) ,
+       pct_vac = tot_vacE / tot_unitE,
+       crowding = tot_popE / tot_brE,
+       crowded = case_when(tot_popE / tot_brE > 1 ~ "Crowded",
+                            TRUE ~ "Not Crowded"),
+       dom_mode = case_when(drv_soloE > (crplE + transitE + bikeE + walkE) ~ "Drive Alone",
+                            TRUE ~ "Transit, Walking, Biking, and Carpool"))
+
+grbos_tracts$county <- case_when(grepl("Norfolk", grbos_tracts$NAME, fixed = TRUE) ~ "Norfolk",
+                                 grepl("Suffolk", grbos_tracts$NAME, fixed = TRUE) ~ "Suffolk",
+                                 grepl("Essex", grbos_tracts$NAME, fixed = TRUE) ~ "Essex",
+                                 grepl("Middlesex", grbos_tracts$NAME, fixed = TRUE) ~ "Middlesex",
+                                 grepl("Plymouth", grbos_tracts$NAME, fixed = TRUE) ~ "Plymouth",
+                                 TRUE ~ "Other")
+
+
+grbos_tracts <- filter(grbos_tracts, tot_popE > 0, med_hh_incE > 0, pct_vac >= 0, tot_brE > 0)
+grbos_tracts <- select(grbos_tracts, GEOID, med_hh_incE, tot_popE, hcburden, pct_vac, crowding, crowded, dom_mode, county)
+
+
+
+```
+
+```{r}
+ggplot(grbos_tracts,
+       aes(x = med_hh_incE,
+           y = hcburden,
+           size = crowding)) +
+  geom_point() +
+  scale_x_continuous(name = "Median annual household income") +
+  scale_y_continuous(name = "Percentage of monthly income spent on housing") +
+  scale_size_continuous(name = "Average occupants per bedroom")
+```
+
+```{r}
+ggplot(grbos_tracts, 
+       aes(x = county, fill = dom_mode)) +
+  geom_bar() +
+  scale_y_continuous(name = "Number of tracts") +
+  scale_x_discrete(name = "County") +
+  scale_fill_discrete(name = element_blank(),
+                        labels = c("Drive Alone",
+                                   "Transit, Walking, Biking, and Carpool"))
+```
+
+```{r}
+ggplot(grbos_tracts, 
+       aes(x = med_hh_incE)) +
+  geom_histogram()
+  
+```
+
+```{r}
+ggplot(grbos_tracts,
+       aes(x = dom_mode,
+           y = hcburden)) +
+  geom_boxplot()
+ 
+```
+
+```{r}
+ggplot(grbos_tracts,
+       aes(x = dom_mode,
+           y = med_hh_incE)) +
+  geom_boxplot()
+ 
+```
+
+```{r}
+ggplot(grbos_tracts, 
+       aes(x = hcburden,
+           y = pct_vac)) +
+  geom_point() +
+  stat_smooth(method = "lm")
+  
+```
+
+```{r}
+pie_chart <- ggplot(grbos_tracts, aes(x = 1, fill = county)) +
+  geom_bar(position = "fill") +
+  coord_polar(theta = "y") +
+  scale_y_continuous(name = "Number of tracts") +
+  scale_fill_discrete(name = "County") +
+  theme_void() 
+
+pie_chart
+```
+
+```{r}
+ggplot(grbos_tracts, 
+       aes(x = tot_popE,
+           y = med_hh_incE,
+           color = dom_mode,
+           size = hcburden
+           )) +
+  geom_point() +
+  stat_smooth(method = "lm")
+  
+```
+
+```{r}
+ggplot(grbos_tracts, 
+       aes(x = hcburden)) +
+  geom_histogram()
+  
+```
+
+```{r}
+ggplot(grbos_tracts, 
+       aes(x = county,
+           y = crowding)) +
+  geom_point(position = "jitter") +
+scale_y_continuous(breaks = seq(0, 1.5, by = 0.5))
+  
+```
