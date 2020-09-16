@@ -1,22 +1,23 @@
 ---
-title: "Census Practice"
+title: "Assignment 1"
 author: "Chris Dsida"
-date: "9/6/2020"
+date: "9/16/2020"
 output: html_document
 ---
+## Importing Data
 
-```{r}
+
+I first load the necessary packages and select variables to pull from the 2018 ACS. Due to the population size of tracts, I need to use 5-year estimates. I chose variables that I suspect may be related in some way, such as income, monthly housing costs, commute mode, vacancy rates, and number of bedrooms in a given tract. 
+
+
+```{r, results='hide', message=FALSE}
 
 library(ggplot2)
 library(tidycensus)
 library(tidyverse)
-```
 
-```{r}
 area_vars_2018 <- load_variables(2018, "acs5")
-```
 
-```{r load area variables, results = 'hide'}
 vars <- c(med_hh_inc = "B19013_001",
          tot_vac = "B25002_003",
          tot_unit = "B25002_001",
@@ -29,7 +30,19 @@ vars <- c(med_hh_inc = "B19013_001",
          tot_br = "B25041_001",
          tot_pop = "B00001_001"
          )
+```
 
+
+Due to the peculiarities of Greater Boston, I had to import five counties to capture most of the metropolitan region, which also provided me with a bonus categorical variable. I also used this chunk to create some new variables:
+
+* Percentage of median monthly income spent on housing, including both rental and ownership (hcburden)
+* Vacancy rate (pct_vac)
+* Number of residents per bedroom (crowding)
+* A categorical variable for when crowding exceeds 1 person per room (crowded)
+* A categorical variable for tracts where commuters who drive alone constitute a majority, or those who walk, bike, and take transit (dom_mode)
+
+
+```{r, results='hide', message=FALSE}
 ma_counties <- c("Norfolk", "Suffolk", "Essex", "Middlesex", "Plymouth")
 
 grbos_tracts <- get_acs(geography = "tract",
@@ -55,24 +68,35 @@ grbos_tracts$county <- case_when(grepl("Norfolk", grbos_tracts$NAME, fixed = TRU
 
 
 grbos_tracts <- filter(grbos_tracts, tot_popE > 0, med_hh_incE > 0, pct_vac >= 0, tot_brE > 0)
-grbos_tracts <- select(grbos_tracts, GEOID, med_hh_incE, tot_popE, hcburden, pct_vac, crowding, crowded, dom_mode, county)
+grbos_tracts <- select(grbos_tracts, GEOID, med_hh_incE, med_mhcostE, tot_popE, hcburden, pct_vac, crowding, crowded, dom_mode, county)
 
 
 
 ```
 
-```{r}
+
+## Figures
+
+For my first plot, I hoped to see if there was any relationship between income and monthly housing cost burden (besides the one that I created when defining the variables).
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts,
        aes(x = med_hh_incE,
            y = hcburden,
            size = crowding)) +
   geom_point() +
   scale_x_continuous(name = "Median annual household income") +
-  scale_y_continuous(name = "Percentage of monthly income spent on housing") +
+  scale_y_continuous(name = "Percentage of monthly income spent on housing",
+                     labels = scales::percent) +
   scale_size_continuous(name = "Average occupants per bedroom")
 ```
 
-```{r}
+
+In the next chart, I wanted to see how the commute mode share varied from county to county. Due to Suffolk County's level of transit service and density, this makes sense to me, more or less.
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts, 
        aes(x = county, fill = dom_mode)) +
   geom_bar() +
@@ -83,73 +107,118 @@ ggplot(grbos_tracts,
                                    "Transit, Walking, Biking, and Carpool"))
 ```
 
-```{r}
+
+Here I was just interested in seeing what the region's income distribution looked like, so I made a basic histogram.
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts, 
        aes(x = med_hh_incE)) +
-  geom_histogram()
+  geom_histogram() + 
+  scale_y_continuous(name = "Number of tracts") +
+  scale_x_continuous(name = "Median household income")
   
 ```
 
-```{r}
-ggplot(grbos_tracts,
-       aes(x = dom_mode,
-           y = hcburden)) +
-  geom_boxplot()
- 
-```
 
-```{r}
+The next three charts are all somewhat related. The relationship between income, housing costs, and commute mode is something that I find interesting. Two of the following charts are "boring" box and whisker plots, but I also wanted to experiment with the visuals on the last one a little bit.
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts,
        aes(x = dom_mode,
            y = med_hh_incE)) +
-  geom_boxplot()
+  geom_boxplot() +
+  scale_y_continuous(name = "Median household income") +
+  scale_x_discrete(name = "Dominant commute mode")
  
 ```
 
-```{r}
+```{r, results='hide', message=FALSE}
+ggplot(grbos_tracts,
+       aes(x = dom_mode,
+           y = hcburden)) +
+  geom_boxplot() +
+  scale_y_continuous(name = "Monthly housing cost burden",
+                     labels = scales::percent) +
+  scale_x_discrete(name = "Dominant commute mode") 
+ 
+```
+```{r, results='hide', message=FALSE}
+ggplot(grbos_tracts,
+       aes(x = dom_mode,
+           y = hcburden,
+           color = dom_mode)) +
+  geom_point(position = "jitter") +
+  scale_color_discrete(name = NULL, breaks = NULL, labels = NULL) +
+  scale_y_continuous(name = "Monthly housing cost burden",
+                     labels = scales::percent) +
+  scale_x_discrete(name = "Dominant commute mode")
+ 
+```
+
+
+I actually kind of like how that one turned out! (at least visually... not sure if it does a better job communicating the information). In the next chart I wanted to play around with fitting a trendline. Intuitively, I feel like this relationship makes sense. An area in high demand will likely have both higher housing prices and lower vacancy rates (assuming construction of housing happens slowly enough).
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts, 
-       aes(x = hcburden,
+       aes(x = med_mhcostE,
            y = pct_vac)) +
   geom_point() +
-  stat_smooth(method = "lm")
+  stat_smooth(method = "lm") +
+  scale_x_continuous("Median monthly housing costs") + 
+  scale_y_continuous("Vacancy rate",
+                     labels = scales::percent)
   
 ```
 
-```{r}
+
+I figured I should include a pie chart in some way, although this one is not particularly useful. The number of tracts in each county could be interpreted as a proxy for population, but otherwise it isn't that informative.
+
+
+```{r, results='hide', message=FALSE}
 pie_chart <- ggplot(grbos_tracts, aes(x = 1, fill = county)) +
   geom_bar(position = "fill") +
   coord_polar(theta = "y") +
-  scale_y_continuous(name = "Number of tracts") +
   scale_fill_discrete(name = "County") +
   theme_void() 
 
 pie_chart
 ```
 
-```{r}
+
+Inspired by the "everything in the kitchen sink" plot from the tutorial, I wanted to see what happened when I threw a couple different geometries on at once. It, uhh, does not look good. However, I think the density contours, in the right context, could actually be somewhat useful? Also: I believe the vertical striations are from the population estimates only being done to the nearest multiple of 50.
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts, 
        aes(x = tot_popE,
            y = med_hh_incE,
-           color = dom_mode,
            size = hcburden
            )) +
+  theme_bw() +
+  geom_density_2d() +
   geom_point() +
-  stat_smooth(method = "lm")
+  scale_y_continuous(name = "Median household income") +
+  scale_x_continuous(name = "Total tract population") +
+  scale_size_continuous(name = "Pct of income spent on housing",
+                        labels = scales::percent)
   
 ```
 
-```{r}
-ggplot(grbos_tracts, 
-       aes(x = hcburden)) +
-  geom_histogram()
-  
-```
 
-```{r}
+For my final plot, I wanted to play around with the violin plots and look at the level of crowding in the different metro Boston counties. I did have to limit the y axis to get a better look at the bulk of the data.
+
+
+```{r, results='hide', message=FALSE}
 ggplot(grbos_tracts, 
        aes(x = county,
            y = crowding)) +
-  geom_point(position = "jitter") +
-scale_y_continuous(breaks = seq(0, 1.5, by = 0.5))
+  geom_violin() +
+  ylim(0, 1) +
+  scale_y_continuous(name = "Average residents per bedroom", limits = c(0, 1)) +
+  scale_x_discrete(name = "County") +
+  theme_minimal()
   
 ```
