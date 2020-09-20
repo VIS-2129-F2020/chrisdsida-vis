@@ -1,0 +1,49 @@
+---
+title: "Chris Dsida Assignment 2"
+author: "Chris Dsida"
+date: "9/21/2020"
+output:
+  rmarkdown::html_document:
+    theme: paper
+---
+
+## How does this theme look?
+
+I am experimenting with rmarkdown themes this time
+
+```{r, results='hide', message=FALSE}
+# Load relevant packages
+library(ggplot2)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(tidyverse)
+library(ggspatial)
+library(cartogram)
+library(ggthemes)
+```
+
+```{r s america map}
+
+
+sa_countries <- ne_countries(scale = 50, continent = "South America", returnclass = "sf") 
+
+sa_map <- ggplot(sa_countries) +
+  geom_sf() + 
+  theme_bw()
+
+sa_map +
+  annotation_scale()
+```
+
+```{r}
+brz_pro <- "+proj=aea +lat_1=10 +lat_2=-40 +lat_0=-25 +lon_0=-50 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs "
+```
+
+```{r s america alt. projection}
+
+ggplot(sa_countries) +
+  geom_sf() +
+  coord_sf(crs = brz_pro)
+
+```
