@@ -125,7 +125,6 @@ Lastly, we can see what happens when using a projection that is intended for a t
 # Dumb projection
 wa_pro <- "+proj=lcc +lat_1=47.5 +lat_2=48.73333333333333 +lat_0=47 +lon_0=-120.8333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs"
 
-
 ggplot() +
   geom_sf(data = sa_countries) +
   geom_sf(data = fr_gui) +
@@ -146,14 +145,68 @@ covid_data <- read.csv(file = "WHO-COVID-19-global-data.csv")
 
 covid_sa <- sa_countries %>%
   left_join(covid_data, by = c("name_long" = "Country")) %>%
-  mutate(case_100k = 100000 * New_cases / pop_est) %>%
-  select(name_long, pop_est, case_100k, New_cases, Cumulative_cases, New_deaths, Cumulative_deaths)
+  mutate(case_100k = 100000 * Cumulative_cases / pop_est,
+         gdp_per_cap = gdp_md_est * 1000000 / pop_est) %>%
+  select(name_long, pop_est, case_100k, New_cases, Cumulative_cases, New_deaths, Cumulative_deaths, gdp_per_cap, abbrev)
 ```
+
+
+Here is a pretty straightforward plot where the fill color is determined by the rate of COVID 19 cases per 100,000 residents.
+
 
 ```{r, rates of covid}
 # plotting rates of COVID
 ggplot(covid_sa, aes(fill = case_100k)) +
   geom_sf(color = NA) +
   coord_sf(crs = brz_pro) +
+  scale_fill_continuous(name = "Number of cumulative \nCOVID-19 cases per \n100,000 inhabitants") +
   theme_map()
+```
+
+
+Besides just showing different rates of COVID cases with color, I decided to also use the size of each country to show GDP per capita. (I removed the Falklands/Malvinas because their absurdly high gdp per capita ruined any sense of scale). Though this depiction does not focus on geography, it could be useful as a stripped-down comparison of these two variables.
+
+
+```{r, cartogram}
+# Non-continuous cartogram
+covid_sa_transformed <- covid_sa %>%
+  st_transform(crs = brz_pro) %>%
+  filter(name_long != "Falkland Islands")
+
+covid_cartogram <- covid_sa_transformed %>%
+  cartogram_dorling("gdp_per_cap")
+
+ggplot(covid_cartogram, aes(fill = case_100k)) +
+  geom_sf(color = NA) +
+  scale_fill_continuous(name = "Number of cumulative \nCOVID-19 cases per \n100,000 inhabitants") +
+  theme_map() +
+  geom_sf_text(aes(geometry, label = abbrev), size = 3, color = "white") +
+  theme(legend.background = element_blank())
+```
+
+
+Finally, we can just look at the number of cumulative COVID-19 cases with the proportional symbol map. The CSSE at Johns Hopkins certainly does love to use this visualization technique, as noted in the tutorial.
+
+
+```{r, centroids, warning = FALSE}
+# Need to bring back the Falklands/Malvinas into the dataframe first, overwriting the modified one
+covid_sa_transformed <- covid_sa %>%
+  st_transform(crs = brz_pro)
+
+# Proportional symbol map
+covid_centroids <- covid_sa_transformed %>%
+  st_centroid()
+
+ggplot(covid_sa_transformed) +
+  geom_sf(fill = NA, color = "gray") +
+  geom_sf(data = covid_centroids,
+          aes(size = case_100k),
+          color = "blue",
+          alpha = 0.3) +
+  scale_size_continuous(name = "Number of cumulative \nCOVID-19 cases per \n100,000 inhabitants",
+                        breaks = seq(500, 2500, by = 500),
+                        labels = formatC(seq(500, 2500, by = 500)),
+                        range = c(0, 20)) +
+  theme_map()
+
 ```
