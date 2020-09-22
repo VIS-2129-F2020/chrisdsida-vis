@@ -157,11 +157,3 @@ ggplot(covid_sa, aes(fill = case_100k)) +
   coord_sf(crs = brz_pro) +
   theme_map()
 ```
-
-```{r, rates of covid2}
-# plotting rates of COVID, again
-ggplot(covid_sa, aes(fill = case_100k)) +
-  geom_sf(color = NA) +
-  coord_sf(crs = brz_pro) +
-  theme_map()
-```
