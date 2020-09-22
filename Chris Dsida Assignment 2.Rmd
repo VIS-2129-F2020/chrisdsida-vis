@@ -1,7 +1,7 @@
 ---
 title: "Projections and Distortions"
 author: "Chris Dsida"
-date: "9/21/2020"
+date: "9/23/2020"
 output:
   rmarkdown::html_document:
     theme: paper
@@ -164,7 +164,7 @@ ggplot(covid_sa, aes(fill = case_100k)) +
 ```
 
 
-Besides just showing different rates of COVID cases with color, I decided to also use the size of each country to show GDP per capita. (I removed the Falklands/Malvinas because their absurdly high gdp per capita ruined any sense of scale). Though this depiction does not focus on geography, it could be useful as a stripped-down comparison of these two variables.
+Besides just showing different rates of COVID cases with color, I decided to also use the size of each country to show GDP per capita. (I removed the Falklands/Malvinas because their absurdly high gdp per capita ruined any sense of scale). Though this depiction does not focus on geography, it could be useful as a stripped-down comparison of these two variables. That being said, it doesn't seem like a country's wealth has an obvious impact on the rate of infection.
 
 
 ```{r, cartogram}
