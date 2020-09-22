@@ -138,7 +138,7 @@ ggplot() +
 # Representing a Variable
 
 
-I have decided to look at rates of incidence for COVID-19 in South America. Unfortunately, data for French Guiana is usally reported with France (I checked several places), so I will have to leave it out.
+I have decided to look at rates of COVID-19 in South America. Unfortunately, data for French Guiana is usally reported with France (I checked several places), so I will have to leave it out.
 
 ```{r, import WHO data}
 # importing and joining WHO covid-19 data to existing country dataframe
@@ -150,7 +150,7 @@ covid_sa <- sa_countries %>%
   select(name_long, pop_est, case_100k, New_cases, Cumulative_cases, New_deaths, Cumulative_deaths)
 ```
 
-```{r, rates of covid}
+```{r, rates of covid per 100k}
 ggplot(covid_sa, aes(fill = case_100k)) +
   geom_sf(color = NA) +
   coord_sf(crs = brz_pro) +
