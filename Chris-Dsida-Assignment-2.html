@@ -492,7 +492,8 @@ covid_sa &lt;- sa_countries %&gt;%
   left_join(covid_data, by = c(&quot;name_long&quot; = &quot;Country&quot;)) %&gt;%
   mutate(case_100k = 100000 * New_cases / pop_est) %&gt;%
   select(name_long, pop_est, case_100k, New_cases, Cumulative_cases, New_deaths, Cumulative_deaths)</code></pre>
-<pre class="r"><code>ggplot(covid_sa, aes(fill = case_100k)) +
+<pre class="r"><code># plotting rates of COVID
+ggplot(covid_sa, aes(fill = case_100k)) +
   geom_sf(color = NA) +
   coord_sf(crs = brz_pro) +
   theme_map()</code></pre>

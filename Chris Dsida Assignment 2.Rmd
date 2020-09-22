@@ -150,7 +150,8 @@ covid_sa <- sa_countries %>%
   select(name_long, pop_est, case_100k, New_cases, Cumulative_cases, New_deaths, Cumulative_deaths)
 ```
 
-```{r, rates of covid per 100k}
+```{r, rates of covid}
+# plotting rates of COVID
 ggplot(covid_sa, aes(fill = case_100k)) +
   geom_sf(color = NA) +
   coord_sf(crs = brz_pro) +
