@@ -58,7 +58,7 @@ fra_map
 ```
 
 
-For comparing projections though, I do want to include all of South America, and incorporated French Guiana into my plot.
+For comparing projections though, I do want to include all of South America, and incorporated French Guiana into my plot. I tried to figure out how to merge this entry with the rest of `sa_countries`, but didn't have much luck since the entries for states and countries have different variables attached to them.
 
 
 ```{r, complete SA map}
@@ -137,7 +137,7 @@ ggplot() +
 # Representing a Variable
 
 
-I have decided to look at rates of COVID-19 in South America. Unfortunately, data for French Guiana is usally reported with France (I checked several places), so I will have to leave it out.
+I have decided to look at rates of COVID-19 in South America. Unfortunately, data for French Guiana is usually reported with France (I checked several places), so I will have to leave it out.
 
 ```{r, import WHO data}
 # importing and joining WHO covid-19 data to existing country dataframe
