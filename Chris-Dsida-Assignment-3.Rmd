@@ -1,0 +1,23 @@
+---
+title: "Areas and Locations"
+author: "Chris Dsida"
+date: "9/27/2020"
+output:
+  rmarkdown::html_document:
+    theme: paper
+---
+
+```{r, load packages, results='hide', message=FALSE, warning=FALSE}
+library(sf)
+library(tidyverse)
+library(ggthemes)
+library(ggspatial)
+library(units)
+library(nngeo)
+```
+
+```{r, load data}
+
+
+
+```
