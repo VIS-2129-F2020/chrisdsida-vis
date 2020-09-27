@@ -16,8 +16,42 @@ library(units)
 library(nngeo)
 ```
 
-```{r, load data}
+```{r, load data, warning=FALSE}
+MA_state_plane <- "+proj=lcc +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs"
+
+NAD_83 <- "+proj=latlong +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000.0000000001 +ellps=GRS80 +datum=NAD83 +no_defs "
+
+nr_zoning <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/Zoning/Zoning.shp", quiet = TRUE) %>%
+  filter(ZoneCode == "NR") %>%
+  st_transform(MA_state_plane)
+
+sq_nhoods <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/Neighborhoods/Neighborhoods.shp", quiet = TRUE) %>%
+  filter(grepl("Square", NBHD)) %>%
+  st_transform(MA_state_plane)
+
+op_space <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/OpenSpace/OpenSpace.shp", quiet = TRUE) %>%
+  st_transform(MA_state_plane) %>%
+  st_centroid()
 
 
 
 ```
+```{r}
+rat_calls <- read.csv("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/ratcalls.csv") %>%
+  filter(street_address != " NA") %>% 
+  st_as_sf(coords = c("lat", "long"), crs = NAD_83)
+
+ggplot() +
+  geom_sf(data = sq_nhoods) +
+  geom_sf(data = rat_calls)
+
+
+```
+
+
+```{r}
+ggplot() +
+  geom_sf(data = nr_zoning) +
+  geom_sf(data = op_space)
+```
+

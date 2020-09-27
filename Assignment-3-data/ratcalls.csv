@@ -1,0 +1,875 @@
+﻿ticket_id,issue_type,ticket_created_date_time,submitter,issue_description,ticket_status,ticket_last_updated_date_time,secondary_issue_type,neighborhood_district,ticket_closed_date_time,street_address,long,lat
+"769,267",Rats,2/10/2019 12:14,"127,685",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 1,2/27/2019 14:11,70 Otis St,42.388218,-71.09095
+"807,893",Rats,6/26/2019 10:49,"83,397",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 3,6/27/2019 8:11, Montrose St,42.3885914,-71.09932
+"820,400",Rats,8/3/2019 18:11,"3,317",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 7,8/7/2019 15:06,122 North St,42.409714,-71.128944
+"833,427",Rats,9/12/2019 21:21,211,ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 2,9/18/2019 8:10,35 Oak St,42.37591523,-71.09844625
+"841,578",Rats,10/13/2019 23:14,934,ISD Health,Closed,10/16/2019 16:06,Service Requests,Ward 3,10/16/2019 16:06,6 Bigelow St,42.3824646,-71.0933942
+"842,940",Rats,10/17/2019 17:40,"2,518",ISD Health,Open,10/17/2019 17:40,Service Requests,Ward 3,,58 Bow St,42.3813849,-71.0990627
+"761,111",Rats,1/8/2019 13:54,0,ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 4,1/10/2019 15:11, Heath St,42.3949339,-71.0951955
+"760,555",Rats,1/6/2019 12:07,"125,674",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 3,1/10/2019 15:11, Washington St,42.3795825,-71.0939875
+"770,797",Rats,2/17/2019 18:42,"2,957",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11,15 Evergreen Ave,42.391296,-71.095085
+"761,208",Rats,1/8/2019 18:27,"125,847",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 4,1/10/2019 15:11,95 Bailey Rd,42.39658105,-71.08909457
+"773,260",Rats,2/27/2019 19:33,"20,098",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06, Governor Winthrop Rd,42.3964748,-71.0878489
+"759,773",Rats,1/3/2019 7:42,"123,425",ISD Health,Closed,1/3/2019 14:11,Service Requests,Ward 2,1/3/2019 14:11,52 Beacon St,42.375637,-71.10363
+"759,396",Rats,1/1/2019 11:01,"66,967",ISD Health,Closed,1/1/2019 11:01,Service Requests,Ward 2,1/1/2019 11:01,77 Merriam St,42.3789673,-71.0918158
+"762,972",Rats,1/16/2019 10:11,"33,804",ISD Health,Closed,1/17/2019 14:11,Service Requests,Ward 3,1/17/2019 14:11,46 Bow St,42.3815069,-71.0982222
+"766,296",Rats,1/29/2019 11:52,"113,377",ISD Health,Closed,1/30/2019 15:11,Service Requests,Ward 2,1/30/2019 15:11,5 Rossmore St,42.3783345,-71.0909337
+"773,282",Rats,2/28/2019 8:29,"26,376",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 5,10/9/2019 15:06,17 Franey Rd,42.3963931,-71.1075465
+"769,609",Rats,2/12/2019 8:11,"70,328",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11,266 Broadway,42.390861,-71.0911762
+"763,785",Rats,1/19/2019 10:32,"120,693",ISD Health,Open,1/19/2019 10:32,Service Requests,Ward 2,,51 Warren St,42.373596,-71.08812
+"759,780",Rats,1/3/2019 8:02,"79,450",ISD Health,Closed,1/3/2019 14:11,Service Requests,Ward 5,1/3/2019 14:11,104 Hudson St,42.3909255,-71.1082031
+"772,555",Rats,2/25/2019 21:40,"128,501",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11, Sycamore St,42.3913289,-71.0994049
+"761,205",Rats,1/8/2019 17:30,0,ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 1,1/10/2019 15:11,19 Myrtle St,42.38239537,-71.08391336
+"763,343",Rats,1/17/2019 12:30,"22,222",ISD Health,Open,1/17/2019 12:30,Service Requests,Ward 4,,57 Governor Winthrop Rd,42.3963439,-71.087481
+"767,592",Rats,2/2/2019 15:37,401,ISD Health,Closed,2/6/2019 8:11,Service Requests,Ward 1,2/6/2019 8:11,15 Pinckney St,42.3826709,-71.0822059
+"763,774",Rats,1/18/2019 23:55,"1,326",ISD Health,Closed,1/30/2019 11:11,Service Requests,Ward 2,1/30/2019 11:11,26 Lake St,42.380043,-71.0998
+"764,458",Rats,1/22/2019 21:11,"126,596",ISD Health,Closed,1/23/2019 9:11,Service Requests,Ward 3,1/23/2019 9:11, NA,42.38893964,-71.09717348
+"762,153",Rats,1/12/2019 15:38,"114,910",ISD Health,Closed,1/17/2019 10:11,Service Requests,Ward 2,1/17/2019 10:11,390 Somerville Ave,42.381301,-71.100497
+"768,512",Rats,2/6/2019 12:33,"7,802",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 3,2/27/2019 14:11,56 Bow St,42.3814242,-71.0988257
+"767,585",Rats,2/2/2019 12:46,"120,693",ISD Health,Closed,2/6/2019 14:11,Service Requests,Ward 2,2/6/2019 14:11,58 Medford St,42.375187,-71.08857
+"766,824",Rats,1/30/2019 15:28,"73,870",ISD Health,Closed,2/6/2019 14:11,Service Requests,Ward 2,2/6/2019 14:11,192 Washington St,42.3794768,-71.0908873
+"764,516",Rats,1/23/2019 9:00,"126,612",ISD Health,Closed,1/30/2019 15:11,Service Requests,Ward 2,1/30/2019 15:11,23 Park St,42.3823953,-71.1071354
+"759,720",Rats,1/2/2019 15:53,"6,515",ISD Health,Closed,1/3/2019 14:11,Service Requests,Ward 1,1/3/2019 14:11, Mt Vernon St,42.3841062,-71.0804061
+"761,589",Rats,1/10/2019 9:29,"14,270",ISD Health,Closed,1/17/2019 14:11,Service Requests,Ward 3,1/17/2019 14:11,25 Bow St,42.3815341,-71.0972938
+"768,918",Rats,2/7/2019 16:17,"68,745",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11,13 Sargent Ave,42.3911043,-71.09293
+"772,106",Rats,2/22/2019 22:03,"2,957",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 3,2/27/2019 14:11,311 Medford St,42.386589,-71.094406
+"765,591",Rats,1/25/2019 21:22,"2,957",ISD Health,Closed,1/30/2019 15:11,Service Requests,Ward 4,1/30/2019 15:11,32 Marshall St,42.391308,-71.093719
+"771,791",Rats,2/21/2019 16:31,"33,479",ISD Health,Closed,2/21/2019 16:31,Service Requests,Ward 1,2/21/2019 16:31,16 Kensington Ave,42.3900275,-71.0869437
+"768,516",Rats,2/6/2019 12:38,"127,497",ISD Health,Closed,2/7/2019 15:11,Service Requests,Ward 1,2/7/2019 15:11,19 Macarthur St,42.388744,-71.088638
+"760,542",Rats,1/5/2019 18:29,"6,802",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 2,1/10/2019 15:11,400 Somerville Ave,42.380596,-71.10112
+"762,130",Rats,1/11/2019 19:55,0,ISD Health,Closed,1/14/2019 14:11,Service Requests,Ward 3,1/14/2019 14:11, NA,42.3875968,-71.0994968
+"769,183",Rats,2/8/2019 14:47,"127,685",ISD Health,Closed,2/11/2019 8:11,Service Requests,Ward 1,2/11/2019 8:11,70 Otis St,42.388218,-71.09095
+"764,901",Rats,1/23/2019 19:00,"56,524",ISD Health,Closed,1/23/2019 19:00,Service Requests,Ward 4,1/23/2019 19:00,100 Temple Rd,42.3982974,-71.0857342
+"762,852",Rats,1/15/2019 15:41,"35,719",ISD Health,Closed,1/17/2019 14:11,Service Requests,Ward 1,1/17/2019 14:11,17 New Hampshire Ave,42.3891332,-71.0817473
+"761,510",Rats,1/9/2019 18:59,"57,060",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 4,1/10/2019 15:11, Evergreen Ave,42.39163176,-71.09631221
+"769,247",Rats,2/9/2019 16:49,"127,711",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 5,2/27/2019 14:11,82 Hudson St,42.3905209,-71.1071354
+"773,234",Rats,2/27/2019 17:33,"128,650",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 3,10/9/2019 15:06,3 Boston St,42.3803491,-71.0905623
+"770,501",Rats,2/14/2019 18:26,"96,506",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 2,2/27/2019 14:11,8 Wyatt St,42.3763517,-71.1012862
+"761,500",Rats,1/9/2019 16:38,"125,909",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 2,1/10/2019 15:11,9 Leon St,42.37566655,-71.10084238
+"770,818",Rats,2/18/2019 11:16,"128,083",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 1,2/27/2019 14:11,8 Macarthur St,42.3889737,-71.0879974
+"766,764",Rats,1/30/2019 13:42,"63,453",ISD Health,Closed,2/6/2019 14:11,Service Requests,Ward 1,2/6/2019 14:11, Alston St,42.3812522,-71.0890235
+"768,290",Rats,2/6/2019 8:40,"71,650",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 1,2/27/2019 14:11, Blakeley Ave,42.3905699,-71.0861971
+"763,788",Rats,1/19/2019 11:09,"126,414",ISD Health,Closed,1/19/2019 11:09,Service Requests,Ward 1,1/19/2019 11:09,15 Pinckney St,42.3826709,-71.0822059
+"761,964",Rats,1/11/2019 10:58,"89,308",ISD Health,Closed,1/17/2019 14:11,Service Requests,Ward 4,1/17/2019 14:11,359 Medford St,42.389016,-71.0967831
+"807,410",Rats,6/25/2019 12:05,0,ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 4,6/28/2019 8:11,32 Jaques St,42.393178,-71.090883
+"768,952",Rats,2/7/2019 19:40,"7,802",ISD Health,Closed,2/14/2019 11:11,Service Requests,Ward 3,2/14/2019 11:11,56 Bow St,42.3814242,-71.0988257
+"811,477",Rats,7/8/2019 15:51,"48,779",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,29 Oak St,42.3760653,-71.098134
+"772,164",Rats,2/24/2019 13:37,"2,824",ISD Health,Open,2/24/2019 13:37,Service Requests,Ward 1,,6 Alston St,42.3823452,-71.089866
+"763,772",Rats,1/18/2019 21:33,"126,410",ISD Health,Closed,1/30/2019 15:11,Service Requests,Ward 4,1/30/2019 15:11,10 Ten Hills Rd,42.394571,-71.086254
+"801,238",Rats,6/5/2019 9:12,"65,183",ISD Health,Open,6/5/2019 9:12,Service Requests,Ward 2,,5 Dimick St,42.376081,-71.1016575
+"772,191",Rats,2/25/2019 8:12,"13,975",ISD Health,Open,2/25/2019 8:12,Service Requests,Ward 1,,34 Everett Ave,42.3869939,-71.0894946
+"763,571",Rats,1/18/2019 10:34,"121,097",ISD Health,Closed,1/30/2019 11:11,Service Requests,Ward 2,1/30/2019 11:11,263 Washington St,42.3797393,-71.0970501
+"770,747",Rats,2/16/2019 9:50,"128,065",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 3,2/27/2019 14:11,18 Madison St,42.3878322,-71.0991971
+"767,795",Rats,2/4/2019 12:46,"7,802",ISD Health,Closed,2/6/2019 8:11,Service Requests,Ward 3,2/6/2019 8:11,56 Bow St,42.3814242,-71.0988257
+"767,827",Rats,2/4/2019 13:51,740,ISD Health,Closed,2/6/2019 14:11,Service Requests,Ward 2,2/6/2019 14:11,282 Somerville Ave,42.3788,-71.0943
+"760,199",Rats,1/4/2019 8:00,"108,454",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 5,1/10/2019 15:11, Hudson St,42.3908061,-71.1075438
+"769,836",Rats,2/12/2019 14:12,0,ISD Health,Closed,2/14/2019 8:11,Service Requests,Ward 1,2/14/2019 8:11,192 Broadway,42.3890312,-71.0873334
+"764,160",Rats,1/22/2019 10:35,"21,671",ISD Health,Closed,1/30/2019 15:11,Service Requests,Ward 2,1/30/2019 15:11,36 Adrian St,42.3771113,-71.0994292
+"762,528",Rats,1/14/2019 17:42,"110,526",ISD Health,Closed,1/17/2019 14:11,Service Requests,Ward 2,1/17/2019 14:11,12 Mondamin Ct,42.3814608,-71.1094298
+"760,884",Rats,1/7/2019 16:37,"125,763",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 2,1/10/2019 15:11,41A Oak St,42.3759704,-71.0988076
+"759,708",Rats,1/2/2019 15:32,"28,991",ISD Health,Closed,1/3/2019 14:11,Service Requests,Ward 2,1/3/2019 14:11,23 Bolton St,42.3752648,-71.0981758
+"770,487",Rats,2/14/2019 17:17,"10,150",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 1,2/27/2019 14:11,65 Florence St,42.384526,-71.0822059
+"767,939",Rats,2/4/2019 21:51,"127,430",ISD Health,Closed,2/6/2019 14:11,Service Requests,Ward 1,2/6/2019 14:11,8 Macarthur St,42.3889737,-71.0879974
+"766,805",Rats,1/30/2019 14:46,"125,522",ISD Health,Closed,2/6/2019 14:11,Service Requests,Ward 2,2/6/2019 14:11,10 Allen Ct,42.3820717,-71.1074139
+"760,680",Rats,1/7/2019 10:54,"4,634",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 1,1/10/2019 15:11,47 Pearl St,42.3842463,-71.0824148
+"772,087",Rats,2/22/2019 16:19,"29,075",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 3,2/27/2019 14:11,25-27 Putnam St,42.3839746,-71.0982641
+"759,718",Rats,1/2/2019 15:51,"6,515",ISD Health,Closed,1/3/2019 14:11,Service Requests,Ward 1,1/3/2019 14:11, Macarthur St,42.3887989,-71.0883449
+"771,501",Rats,2/21/2019 7:03,"4,423",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11,14 Dartmouth St,42.3907592,-71.097433
+"768,920",Rats,2/7/2019 16:26,"62,304",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11,367 Broadway,42.3942899,-71.0959475
+"768,806",Rats,2/7/2019 11:50,"126,371",ISD Health,Closed,2/14/2019 8:11,Service Requests,Ward 1,2/14/2019 8:11,13 Pinckney St,42.3825399,-71.082308
+"772,338",Rats,2/25/2019 11:16,"118,486",ISD Health,Closed,2/27/2019 14:11,Service Requests,Ward 4,2/27/2019 14:11,12 Fellsway W,42.391373,-71.089851
+"759,981",Rats,1/3/2019 13:47,"23,698",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 4,1/10/2019 15:11,18 Sewall St,42.3927666,-71.0915837
+"759,789",Rats,1/3/2019 8:30,"78,787",ISD Health,Closed,1/10/2019 15:11,Service Requests,Ward 1,1/10/2019 15:11, Florence St,42.3836957,-71.082983
+"761,662",Rats,1/10/2019 11:44,"108,454",ISD Health,Closed,1/17/2019 9:11,Service Requests,Ward 3,1/17/2019 9:11, Lowell St,42.3902029,-71.1079523
+"787,018",Rats,4/16/2019 8:58,"23,600",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 1,4/18/2019 15:11,23 Lincoln St,42.3855069,-71.0816488
+"782,821",Rats,3/30/2019 18:18,"130,749",ISD Health,Closed,4/4/2019 19:29,Service Requests,Ward 2,4/4/2019 19:29,62 Line St,42.3764298,-71.1052927
+"792,827",Rats,5/6/2019 15:36,"99,815",ISD Health,Closed,5/7/2019 16:11,Service Requests,Ward 1,5/7/2019 16:11,11 Cutter St,42.38697375,-71.08368071
+"793,236",Rats,5/8/2019 6:26,"7,502",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 1,5/9/2019 15:11,17 Mt Pleasant St,42.38538,-71.078712
+"791,088",Rats,4/29/2019 21:53,"6,802",ISD Health,Closed,5/1/2019 11:11,Service Requests,Ward 2,5/1/2019 11:11, NA,42.379669,-71.096817
+"784,425",Rats,4/4/2019 16:48,"129,938",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,24 Cross St E,42.3894343,-71.0855565
+"785,559",Rats,4/9/2019 8:16,"6,031",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 6,4/11/2019 15:11,7 Park Ave,42.397949,-71.122292
+"782,069",Rats,3/28/2019 8:46,"6,726",ISD Health,Closed,4/5/2019 12:11,Service Requests,Ward 2,4/5/2019 12:11,23 Quincy St,42.3826872,-71.1003577
+"786,463",Rats,4/11/2019 15:27,"114,742",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 6,4/18/2019 15:11,29 Windsor Rd,42.3933774,-71.1162804
+"790,135",Rats,4/25/2019 16:15,"96,506",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 2,5/9/2019 15:11,8 Leon St,42.3758857,-71.1007291
+"793,044",Rats,5/7/2019 12:12,"132,934",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 4,5/9/2019 15:11,392 Broadway,42.394754,-71.098195
+"792,175",Rats,5/2/2019 18:07,"21,385",ISD Health,Closed,5/2/2019 18:07,Service Requests,Ward 1,5/2/2019 18:07,47 Mt Vernon St,42.3844846,-71.0804418
+"792,556",Rats,5/6/2019 9:06,"26,301",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 2,5/9/2019 15:11,7 Parker St,42.3790508,-71.1003577
+"784,907",Rats,4/8/2019 7:40,"122,787",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 3,4/11/2019 15:11,321 Somerville Ave,42.3806123,-71.0975364
+"793,108",Rats,5/7/2019 13:56,"1,278",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 2,5/9/2019 15:11, Bowdoin St,42.3787274,-71.1008456
+"786,591",Rats,4/12/2019 9:34,"87,356",ISD Health,Closed,5/13/2019 17:11,Service Requests,Ward 1,5/13/2019 17:11,29 Minnesota Ave,42.3891958,-71.08436
+"788,602",Rats,4/22/2019 9:41,"124,227",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 5,4/25/2019 15:11,185 Lowell St,42.3902878,-71.1076484
+"793,817",Rats,5/9/2019 14:51,"28,024",ISD Health,Closed,5/9/2019 16:11,Service Requests,Ward 1,5/9/2019 16:11,21-25 Delaware St,42.3860759,-71.0900401
+"774,781",Rats,3/4/2019 15:31,"97,660",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 3,3/19/2019 15:11,2 Belmont St,42.3844697,-71.1110348
+"779,041",Rats,3/18/2019 19:08,"129,987",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 1,3/28/2019 15:11,3 Chester Ave,42.382808,-71.0904579
+"777,993",Rats,3/14/2019 12:14,0,ISD Health,Closed,3/19/2019 8:11,Service Requests,Ward 1,3/19/2019 8:11,8 Macarthur St,42.3889737,-71.0879974
+"787,387",Rats,4/16/2019 16:03,"59,950",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 5,4/18/2019 15:11,8 Porter St,42.3865531,-71.1136809
+"792,822",Rats,5/6/2019 15:26,"28,445",ISD Health,Closed,5/9/2019 8:11,Service Requests,Ward 2,5/9/2019 8:11, Parker St,42.3793667,-71.1001502
+"778,122",Rats,3/14/2019 15:34,"32,181",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 1,3/19/2019 15:11,166 Pearl St,42.3861589,-71.0898196
+"775,173",Rats,3/5/2019 12:00,"33,079",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 2,3/19/2019 15:11,36 Ivaloo St,42.3811587,-71.1088066
+"780,562",Rats,3/22/2019 9:11,"122,787",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 3,3/28/2019 15:11,18 Sanborn Ave,42.3813491,-71.0966438
+"792,441",Rats,5/3/2019 18:36,"85,804",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 2,5/9/2019 15:11, Bolton St,42.3747047,-71.0983801
+"776,120",Rats,3/7/2019 12:13,"17,426",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 2,3/19/2019 15:11,9 Smith Ave,42.377104,-71.1057543
+"782,826",Rats,3/30/2019 21:14,"130,751",ISD Health,Closed,4/5/2019 8:11,Service Requests,Ward 2,4/5/2019 8:11,10 Clark St,42.3776478,-71.0968587
+"784,865",Rats,4/7/2019 12:40,"43,970",ISD Health,Closed,4/11/2019 15:11,internally generated,Ward 1,4/11/2019 15:11,8-10 Macarthur St,42.3889737,-71.0879974
+"782,270",Rats,3/28/2019 13:40,"13,121",ISD Health,Closed,4/5/2019 8:11,Service Requests,Ward 2,4/5/2019 8:11,1 Fitchburg St,42.375804,-71.0840397
+"781,868",Rats,3/27/2019 11:58,"36,559",ISD Health,Closed,3/27/2019 16:11,Service Requests,Ward 5,3/27/2019 16:11,84 Rogers Ave,42.3981903,-71.1125203
+"785,871",Rats,4/10/2019 7:41,"89,343",ISD Health,Closed,4/10/2019 8:11,Service Requests,Ward 1,4/10/2019 8:11,8 Macarthur St,42.3889737,-71.0879974
+"782,063",Rats,3/28/2019 7:16,"70,607",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 4,3/28/2019 15:11,44 Radcliffe Rd,42.3892,-71.095
+"780,113",Rats,3/20/2019 19:03,"130,161",ISD Health,Closed,3/28/2019 8:11,Service Requests,Ward 1,3/28/2019 8:11,299 Medford St,42.3862734,-71.09355625
+"784,481",Rats,4/5/2019 8:10,"89,343",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,8 Macarthur St,42.3889737,-71.0879974
+"788,029",Rats,4/18/2019 14:16,"69,337",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 1,4/25/2019 15:11,232 Pearl St,42.3875576,-71.0943227
+"793,778",Rats,5/9/2019 13:56,"18,543",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 6,5/16/2019 15:11,31 Powder House Blvd,42.4024704,-71.1201074
+"773,440",Rats,2/28/2019 13:55,"13,657",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,37R Oak St,42.376195,-71.098612
+"786,574",Rats,4/12/2019 9:07,"24,628",ISD Health,Closed,4/18/2019 9:11,Service Requests,Ward 3,4/18/2019 9:11,32 Montrose St,42.3885634,-71.0995685
+"789,331",Rats,4/24/2019 9:03,0,ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 3,4/25/2019 15:11, Thorpe St,42.3841676,-71.0939611
+"784,466",Rats,4/4/2019 20:16,"131,105",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,6 Macarthur St,42.3890917,-71.0879278
+"778,217",Rats,3/14/2019 20:32,"6,802",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 2,3/19/2019 15:11,28 Lake St,42.379864,-71.099937
+"784,756",Rats,4/5/2019 15:59,"18,751",ISD Health,Closed,4/5/2019 15:59,Service Requests,Ward 6,4/5/2019 15:59,34 Francesca Ave,42.3985906,-71.1181373
+"786,915",Rats,4/15/2019 11:40,"1,487",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 1,4/18/2019 15:11,117 Cross St,42.3841846,-71.0897731
+"781,449",Rats,3/26/2019 11:29,"24,304",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 5,3/28/2019 15:11,58 Hinckley St,42.3955565,-71.1062069
+"781,163",Rats,3/25/2019 13:25,"31,310",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 1,3/28/2019 15:11,18 Austin St,42.3879661,-71.0806348
+"783,568",Rats,4/2/2019 14:17,"18,333",ISD Health,Closed,4/5/2019 8:11,Service Requests,Ward 1,4/5/2019 8:11,24 Cross St E,42.3894343,-71.0855565
+"786,017",Rats,4/10/2019 12:40,"38,066",ISD Health,Closed,4/10/2019 12:40,Service Requests,Ward 1,4/10/2019 12:40,46 Glen St,42.3862786,-71.0850843
+"780,433",Rats,3/21/2019 15:47,"54,702",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 2,3/28/2019 15:11,62 Summer St,42.3841039,-71.1003235
+"786,007",Rats,4/10/2019 12:21,"131,386",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06,16 Macarthur St,42.3887013,-71.0881947
+"788,502",Rats,4/20/2019 22:01,"131,923",ISD Health,Closed,4/25/2019 8:11,Service Requests,Ward 3,4/25/2019 8:11,16 Montrose St,42.3882804,-71.0987793
+"788,391",Rats,4/19/2019 15:36,"87,344",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 2,4/25/2019 15:11,40 Harrison St,42.3819657,-71.1100634
+"784,630",Rats,4/5/2019 11:35,"6,509",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,14 Macarthur St,42.388786,-71.088112
+"778,382",Rats,3/15/2019 11:19,"7,079",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 2,3/19/2019 15:11,18 Mondamin Ct,42.3816615,-71.1095598
+"793,561",Rats,5/8/2019 20:16,"6,747",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 3,5/9/2019 15:11,35 Stone Ave,42.3807277,-71.0948868
+"784,136",Rats,4/4/2019 10:03,"43,970",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,8 Macarthur St,42.3889737,-71.0879974
+"793,757",Rats,5/9/2019 13:13,"116,969",ISD Health,Closed,5/16/2019 9:11,Service Requests,Ward 3,5/16/2019 9:11,25-27 Stone Ave,42.3804581,-71.0950179
+"790,217",Rats,4/26/2019 9:03,"16,348",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 6,5/9/2019 15:11, Clifton St,42.3964213,-71.11753
+"792,557",Rats,5/6/2019 9:11,0,ISD Health,Closed,5/6/2019 9:11,Service Requests,Ward 1,5/6/2019 9:11,6 -8 Macarthur St,42.3890917,-71.0879278
+"782,652",Rats,3/29/2019 11:55,"36,045",ISD Health,Closed,4/4/2019 9:11,Service Requests,Ward 1,4/4/2019 9:11,22 Austin St,42.3881229,-71.0806739
+"793,811",Rats,5/9/2019 14:45,0,ISD Health,Closed,5/9/2019 14:45,Service Requests,Ward 3,5/9/2019 14:45,25-27 Stone Ave,42.3804581,-71.0950179
+"783,746",Rats,4/3/2019 8:55,"111,488",ISD Health,Closed,4/5/2019 8:11,Service Requests,Ward 6,4/5/2019 8:11,107 College Ave,42.3995497,-71.118323
+"778,731",Rats,3/18/2019 10:14,"70,883",ISD Health,Closed,3/18/2019 10:14,Service Requests,Ward 5,3/18/2019 10:14, Holyoke Rd,42.3884629,-71.1167931
+"781,277",Rats,3/25/2019 16:29,"77,694",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 4,3/28/2019 15:11,34 Wheatland St,42.3923,-71.08976
+"784,465",Rats,4/4/2019 20:01,"131,104",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,8 Macarthur St,42.3889737,-71.0879974
+"779,051",Rats,3/19/2019 7:05,"53,640",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 4,3/19/2019 15:11,43 Governor Winthrop Rd,42.3960638,-71.0871184
+"777,345",Rats,3/12/2019 13:54,0,ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 4,3/19/2019 15:11,145 Bailey Rd,42.3977282,-71.0903883
+"785,850",Rats,4/9/2019 17:49,"8,084",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 6,4/11/2019 15:11, St James Ave,42.3927338,-71.1186631
+"788,367",Rats,4/19/2019 14:58,"1,890",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 1,4/25/2019 15:11,17 Wellington Ave,42.389526,-71.09063
+"787,852",Rats,4/18/2019 9:49,"18,868",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 7,4/25/2019 15:11,405 Alewife Brook Pkwy,42.4140107,-71.1299512
+"793,863",Rats,5/9/2019 16:27,0,ISD Health,Closed,5/9/2019 17:11,Service Requests,Ward 1,5/9/2019 17:11,80 Myrtle St,42.3848274,-71.0833201
+"777,834",Rats,3/13/2019 21:16,"129,685",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 5,3/19/2019 15:11, Highland Ave,42.3922125,-71.1124128
+"778,875",Rats,3/18/2019 13:23,"129,938",ISD Health,Closed,3/19/2019 8:11,Service Requests,Ward 2,3/19/2019 8:11,347 Washington St,42.379438,-71.1024939
+"789,664",Rats,4/24/2019 21:48,"132,146",ISD Health,Closed,4/25/2019 8:11,Service Requests,Ward 1,4/25/2019 8:11,5 Austin St,42.38715,-71.080269
+"781,585",Rats,3/26/2019 14:27,"102,980",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 1,3/28/2019 15:11,16 Broadway Pl,42.3862392,-71.0815243
+"788,454",Rats,4/19/2019 21:11,"59,077",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 2,4/25/2019 15:11,39 Oak St,42.3760681,-71.0987517
+"778,868",Rats,3/18/2019 13:11,"121,031",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 2,3/19/2019 15:11,347 Washington St,42.379438,-71.1024939
+"783,941",Rats,4/3/2019 14:48,"7,037",ISD Health,Closed,4/5/2019 8:11,Service Requests,Ward 1,4/5/2019 8:11,45 Oliver St,42.3840004,-71.0878233
+"787,611",Rats,4/17/2019 12:19,"1,328",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 2,4/18/2019 15:11,19 Concord Ave,42.3768511,-71.0968234
+"792,879",Rats,5/6/2019 20:07,"107,690",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 4,5/9/2019 15:11,117 Heath St,42.3962181,-71.0973257
+"790,737",Rats,4/29/2019 9:27,"16,133",ISD Health,Closed,4/29/2019 14:11,Service Requests,Ward 6,4/29/2019 14:11,33 Windsor Rd,42.3934754,-71.1164129
+"793,224",Rats,5/7/2019 18:45,"8,560",ISD Health,Closed,5/9/2019 8:11,Service Requests,Ward 3,5/9/2019 8:11,26 Montrose St,42.388412,-71.099304
+"773,947",Rats,3/2/2019 8:25,"107,602",ISD Health,Closed,3/19/2019 8:11,Service Requests,Ward 3,3/19/2019 8:11,31 Putnam St,42.3842434,-71.0977829
+"780,934",Rats,3/25/2019 9:24,"22,854",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 6,3/28/2019 15:11,349 Summer St,42.393838,-71.1194131
+"792,085",Rats,5/2/2019 14:05,"103,149",ISD Health,Closed,5/16/2019 9:11,Service Requests,Ward 1,5/16/2019 9:11,21 Autumn St,42.3883916,-71.087684
+"788,902",Rats,4/23/2019 7:21,"89,343",ISD Health,Closed,4/25/2019 8:11,Service Requests,Ward 1,4/25/2019 8:11,8 Macarthur St,42.3889737,-71.0879974
+"791,086",Rats,4/29/2019 21:34,"6,802",ISD Health,Closed,5/1/2019 11:11,Service Requests,Ward 2,5/1/2019 11:11,362 Lake St,42.380356,-71.100395
+"773,979",Rats,3/2/2019 16:16,"128,822",ISD Health,Closed,3/5/2019 9:11,Service Requests,Ward 3,3/5/2019 9:11, NA,42.3875968,-71.0994968
+"785,693",Rats,4/9/2019 12:02,"6,902",ISD Health,Closed,4/22/2019 14:27,Service Requests,Ward 3,4/22/2019 14:27,6 Belmont St,42.3846394,-71.110942
+"780,907",Rats,3/25/2019 9:00,"59,196",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 3,3/28/2019 15:11,25 Stone Ave,42.3804581,-71.0950179
+"789,658",Rats,4/24/2019 20:45,"122,949",ISD Health,Closed,4/25/2019 15:11,Service Requests,Ward 3,4/25/2019 15:11,402 Mcgrath Hwy,42.3819,-71.0908
+"785,650",Rats,4/9/2019 10:59,"44,213",ISD Health,Closed,4/9/2019 15:11,internally generated,Ward 5,4/9/2019 15:11,1 Franey Rd,42.3958218,-71.1074371
+"793,298",Rats,5/8/2019 10:00,"47,189",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 3,5/9/2019 15:11,22 Willoughby St,42.3896511,-71.101379
+"780,811",Rats,3/23/2019 15:46,"66,164",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 3,3/28/2019 15:11,11 Highland Ave,42.384846,-71.092972
+"781,686",Rats,3/26/2019 18:23,"130,506",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 3,3/28/2019 15:11,359 Somerville Ave,42.3811582,-71.098826
+"778,605",Rats,3/16/2019 20:09,"6,802",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 2,3/28/2019 15:11,24 Union Square,42.379704,-71.096535
+"849,830",Rats,11/13/2019 15:51,"1,498",ISD Health,Closed,11/21/2019 8:10,Service Requests,Ward 2,11/21/2019 8:10, Hammond St,42.3751123,-71.1011245
+"791,668",Rats,5/1/2019 12:43,"131,175",ISD Health,Closed,5/1/2019 12:43,Service Requests,Ward 5,5/1/2019 12:43,70 Cedar St,42.3909446,-71.1135416
+"784,832",Rats,4/6/2019 21:26,"131,105",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,14-15 Macarthur St,42.3888047,-71.0881483
+"774,466",Rats,3/4/2019 12:29,"113,588",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 1,3/19/2019 15:11,59 Myrtle St,42.3838513,-71.0837033
+"787,486",Rats,4/17/2019 8:45,"6,515",ISD Health,Closed,4/18/2019 9:11,Service Requests,Ward 1,4/18/2019 9:11, Macarthur St,42.3887989,-71.0883449
+"780,575",Rats,3/22/2019 9:23,"21,488",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 4,3/28/2019 15:11, Medford St,42.3918987,-71.0999939
+"782,034",Rats,3/27/2019 17:15,"59,990",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 2,3/28/2019 15:11,33 Oak St Pl,42.3762176,-71.0974716
+"845,132",Rats,10/25/2019 15:13,"144,812",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 2,11/6/2019 15:06,6 Rose St,42.3788969,-71.1026322
+"778,092",Rats,3/14/2019 14:55,"126,596",ISD Health,Closed,3/19/2019 8:11,Service Requests,Ward 4,3/19/2019 8:11,359 Medford St,42.389016,-71.0967831
+"780,316",Rats,3/21/2019 11:57,"78,369",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 5,3/28/2019 15:11,72A Trull St,42.3954753,-71.1035553
+"786,497",Rats,4/11/2019 16:45,"36,273",ISD Health,Closed,4/18/2019 9:11,Service Requests,Ward 5,4/18/2019 9:11,6 Holyoke Rd,42.3880608,-71.1161429
+"790,938",Rats,4/29/2019 13:26,"33,516",ISD Health,Closed,5/9/2019 8:11,Service Requests,Ward 1,5/9/2019 8:11,15 Melvin St,42.38956,-71.0899764
+"788,601",Rats,4/22/2019 9:41,"36,045",ISD Health,Closed,4/22/2019 12:11,Service Requests,Ward 1,4/22/2019 12:11,22 Austin St,42.3881229,-71.0806739
+"782,052",Rats,3/27/2019 19:53,"130,581",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 2,3/28/2019 15:11,99 Prospect St,42.3754514,-71.096876
+"790,176",Rats,4/25/2019 19:10,"114,742",ISD Health,Closed,5/1/2019 10:11,Service Requests,Ward 6,5/1/2019 10:11,31 Windsor Rd,42.3934383,-71.1164197
+"784,463",Rats,4/4/2019 19:23,"130,749",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 2,4/11/2019 15:11,62 Line St,42.3764298,-71.1052927
+"784,183",Rats,4/4/2019 10:45,"7,794",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 1,4/11/2019 15:11,21 Otis St,42.387684,-71.088196
+"791,626",Rats,5/1/2019 11:58,"48,637",ISD Health,Closed,5/1/2019 11:58,Service Requests,Ward 2,5/1/2019 11:58,92 Newton St,42.3768027,-71.0976187
+"786,945",Rats,4/15/2019 19:02,"89,343",ISD Health,Closed,4/18/2019 9:11,Service Requests,Ward 1,4/18/2019 9:11,8 Macarthur St,42.3889737,-71.0879974
+"791,087",Rats,4/29/2019 21:45,"6,802",ISD Health,Closed,5/1/2019 11:11,Service Requests,Ward 2,5/1/2019 11:11,338 Somerville Ave,42.380604,-71.098282
+"793,738",Rats,5/9/2019 12:22,"4,683",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 6,5/16/2019 15:11,14 Kidder Ave,42.3993405,-71.1181837
+"787,875",Rats,4/18/2019 10:30,"6,385",ISD Health,Closed,4/18/2019 13:11,Service Requests,Ward 5,4/18/2019 13:11,737 Somerville Ave,42.3866048,-71.1150735
+"778,619",Rats,3/17/2019 15:43,"129,883",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 1,3/19/2019 15:11,12 Rush St,42.3876863,-71.0852351
+"783,114",Rats,4/1/2019 13:08,"71,874",ISD Health,Closed,4/5/2019 8:11,Service Requests,Ward 1,4/5/2019 8:11,35 Otis St,42.3878397,-71.0887982
+"778,365",Rats,3/15/2019 11:04,"3,736",ISD Health,Closed,3/19/2019 15:11,Service Requests,Ward 5,3/19/2019 15:11,94 Glenwood Rd,42.3954672,-71.1019825
+"782,158",Rats,3/28/2019 11:28,"91,125",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 3,3/28/2019 15:11,25-27 Stone Ave,42.3804581,-71.0950179
+"792,151",Rats,5/2/2019 16:23,0,ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 2,5/9/2019 15:11,16 Mansfield St,42.3780111,-71.0902317
+"790,782",Rats,4/29/2019 10:17,"47,229",ISD Health,Closed,5/9/2019 15:11,Service Requests,Ward 6,5/9/2019 15:11,61 Simpson Ave,42.4007379,-71.1226865
+"776,897",Rats,3/11/2019 13:10,"9,365",ISD Health,Closed,3/19/2019 8:11,Service Requests,Ward 6,3/19/2019 8:11,416 Highland Ave,42.3960718,-71.121649
+"787,262",Rats,4/16/2019 13:36,"20,753",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 3,4/18/2019 15:11,12 Sanborn Ave,42.3812285,-71.0963942
+"784,823",Rats,4/6/2019 15:49,"131,175",ISD Health,Closed,4/11/2019 15:11,Service Requests,Ward 5,4/11/2019 15:11,70 Cedar St,42.3909446,-71.1135416
+"786,817",Rats,4/12/2019 18:58,"43,970",ISD Health,Closed,4/18/2019 9:11,Service Requests,Ward 1,4/18/2019 9:11,6 Macarthur St,42.3890917,-71.0879278
+"780,889",Rats,3/25/2019 8:45,"68,702",ISD Health,Closed,3/28/2019 15:11,Service Requests,Ward 3,3/28/2019 15:11,17 Willoughby St,42.3894547,-71.1017504
+"787,678",Rats,4/17/2019 14:42,"112,577",ISD Health,Closed,4/18/2019 15:11,Service Requests,Ward 2,4/18/2019 15:11,35 Rossmore St,42.379323,-71.091073
+"793,727",Rats,5/9/2019 11:56,"33,479",ISD Health,Closed,5/16/2019 9:11,Service Requests,Ward 1,5/16/2019 9:11,14 Kensington Ave,42.390007,-71.087059
+"788,539",Rats,4/22/2019 7:47,"43,970",ISD Health,Closed,4/25/2019 8:11,Service Requests,Ward 1,4/25/2019 8:11,8 Macarthur St,42.3889737,-71.0879974
+"784,996",Rats,4/8/2019 10:14,0,ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06, Macarthur St,42.3887989,-71.0883449
+"811,711",Rats,7/9/2019 11:27,"137,117",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 7,7/11/2019 15:11, Cady Ave,42.4001132,-71.1239782
+"800,647",Rats,6/3/2019 14:52,"134,659",ISD Health,Closed,6/3/2019 15:11,Service Requests,Ward 2,6/3/2019 15:11,29 Houghton St,42.3750763,-71.0985936
+"804,335",Rats,6/13/2019 20:43,0,ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 1,6/18/2019 15:11,8 Macarthur St,42.3889737,-71.0879974
+"802,450",Rats,6/8/2019 12:47,"79,337",ISD Health,Closed,6/10/2019 12:11,Service Requests,Ward 4,6/10/2019 12:11,129 Sycamore St,42.3926507,-71.098083
+"800,754",Rats,6/3/2019 20:11,"16,584",ISD Health,Closed,6/6/2019 15:11,Service Requests,Ward 2,6/6/2019 15:11,6 Miller St,42.3839666,-71.1127223
+"801,485",Rats,6/5/2019 15:48,"82,932",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 2,6/18/2019 9:11,290 Washington St,42.3791783,-71.0989067
+"813,079",Rats,7/15/2019 7:43,"22,635",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 2,7/25/2019 9:06,14 Cypress St,42.3838078,-71.1073675
+"809,931",Rats,7/2/2019 10:37,"7,243",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 5,7/3/2019 15:11,8 Linden Ave,42.3876242,-71.1144429
+"814,008",Rats,7/17/2019 11:40,"137,660",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 4,7/25/2019 16:06,31 Sewall St,42.393298,-71.091672
+"795,476",Rats,5/16/2019 7:20,"24,655",ISD Health,Closed,5/16/2019 16:11,Service Requests,Ward 1,5/16/2019 16:11,291 Medford St,42.3855417,-71.0931621
+"810,813",Rats,7/5/2019 10:51,"10,466",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 3,7/11/2019 15:11,13 Wesley Park,42.3822604,-71.0972009
+"798,259",Rats,5/24/2019 20:09,"133,392",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 4,5/30/2019 15:11, Bond St,42.3944357,-71.096738
+"813,502",Rats,7/15/2019 17:42,"48,683",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 5,7/17/2019 15:11,81 Hudson St,42.3907861,-71.1069497
+"802,499",Rats,6/9/2019 13:25,"127,595",ISD Health,Closed,6/13/2019 8:11,Service Requests,Ward 2,6/13/2019 8:11,18 Miller St,42.384331,-71.112968
+"799,464",Rats,5/30/2019 10:28,"26,301",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 2,5/30/2019 15:11, Parker St,42.3793667,-71.1001502
+"807,163",Rats,6/24/2019 17:36,"123,810",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 1,6/27/2019 8:11,84 Cross St,42.3851451,-71.0879302
+"797,875",Rats,5/23/2019 16:39,"114,708",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 4,5/30/2019 15:11,59 Bailey Rd,42.3957848,-71.0878901
+"811,940",Rats,7/9/2019 19:13,0,ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 3,7/11/2019 8:11, Belmont St,42.3871438,-71.1091939
+"809,233",Rats,6/30/2019 13:51,"136,534",ISD Health,Open,6/30/2019 13:51,Service Requests,Ward 2,, Somerville Ave,42.3827009,-71.1041532
+"811,953",Rats,7/10/2019 6:12,0,ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 5,7/11/2019 8:11,32 Warwick St,42.3940545,-71.1091677
+"800,931",Rats,6/4/2019 11:28,"7,880",ISD Health,Closed,6/6/2019 9:11,Service Requests,Ward 2,6/6/2019 9:11, Miller St,42.3844684,-71.1131909
+"794,272",Rats,5/11/2019 20:11,"78,639",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 5,5/16/2019 15:11,429 Medford St,42.392307,-71.100349
+"813,275",Rats,7/15/2019 11:33,"137,483",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 2,7/17/2019 15:11,3 Village St,42.3806268,-71.1048143
+"810,581",Rats,7/3/2019 14:17,"136,865",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,11 Marion St,42.3769678,-71.0998935
+"813,927",Rats,7/17/2019 9:30,"60,506",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 7,7/25/2019 9:06,42 Simpson Ave,42.40039,-71.1234757
+"811,242",Rats,7/8/2019 10:42,"7,414",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 1,7/11/2019 8:11,78 Gilman St,42.3857465,-71.0921872
+"804,860",Rats,6/17/2019 9:32,"135,569",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 2,6/18/2019 15:11,35 Oak St,42.3760174,-71.0984544
+"809,990",Rats,7/2/2019 11:34,"69,009",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 4,7/3/2019 15:11,92 Marshall St,42.388336,-71.095318
+"811,750",Rats,7/9/2019 12:31,"55,509",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,21 Concord Ave,42.3768787,-71.0969994
+"797,663",Rats,5/23/2019 11:08,"133,915",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 4,5/30/2019 9:11,94 Marshall St,42.3883739,-71.0953873
+"809,821",Rats,7/2/2019 7:19,0,ISD Health,Closed,7/3/2019 8:11,Service Requests,Ward 5,7/3/2019 8:11,13 Hall St,42.3915534,-71.1135764
+"812,907",Rats,7/12/2019 14:38,"46,466",ISD Health,Closed,7/12/2019 14:48,Service Requests,Ward 2,7/12/2019 14:48,6 Miller St,42.3839666,-71.1127223
+"806,611",Rats,6/21/2019 21:11,"6,802",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 2,6/27/2019 8:11, NA,42.379662,-71.096916
+"799,700",Rats,5/30/2019 16:56,"105,318",ISD Health,Closed,5/31/2019 12:11,Service Requests,Ward 5,5/31/2019 12:11,42 Albion St,42.3903376,-71.1047502
+"802,992",Rats,6/11/2019 9:39,"31,728",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 1,6/18/2019 15:11,109 Cross St,42.3843207,-71.0893205
+"798,372",Rats,5/27/2019 14:34,"2,824",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 1,5/30/2019 15:11,16 Alston St,42.3820436,-71.0896722
+"801,813",Rats,6/6/2019 13:56,"14,604",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 4,6/18/2019 15:11,1 Howe St,42.389701,-71.0949262
+"813,107",Rats,7/15/2019 8:47,"122,787",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 3,7/25/2019 16:06,55 Union Sq,42.3799052,-71.0961344
+"806,663",Rats,6/22/2019 21:53,"135,955",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 4,6/28/2019 8:11,59 Bailey Rd,42.3957848,-71.0878901
+"811,907",Rats,7/9/2019 17:06,"70,131",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,18 Perry St,42.3786773,-71.101392
+"814,228",Rats,7/17/2019 22:46,"63,748",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 2,7/25/2019 16:06,7 Joseph St,42.3775186,-71.0972474
+"798,291",Rats,5/25/2019 12:40,0,ISD Health,Closed,5/30/2019 9:11,internally generated,Ward 3,5/30/2019 9:11,27 Stone Ave,42.3805089,-71.0950977
+"797,641",Rats,5/23/2019 10:31,"56,690",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 1,5/30/2019 15:11,9 Sunnyside Ave,42.3885612,-71.0917229
+"811,555",Rats,7/8/2019 20:15,"7,414",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 1,7/11/2019 8:11,78 Gilman St,42.3857465,-71.0921872
+"800,194",Rats,6/1/2019 7:50,"25,742",ISD Health,Closed,6/6/2019 9:11,internally generated,Ward 1,6/6/2019 9:11, Rush St,42.3871276,-71.0857942
+"798,262",Rats,5/24/2019 20:38,"6,902",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 3,5/30/2019 15:11, Belmont St,42.3842555,-71.1109898
+"798,376",Rats,5/27/2019 17:04,"1,890",ISD Health,Open,5/27/2019 17:04,Service Requests,Ward 1,,69 Bonair St,42.38905,-71.090637
+"797,657",Rats,5/23/2019 11:01,"133,911",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 4,5/30/2019 9:11,229 Pearl St,42.38774383,-71.09402061
+"795,564",Rats,5/16/2019 10:37,"87,356",ISD Health,Closed,5/17/2019 12:11,Service Requests,Ward 1,5/17/2019 12:11,29 Minnesota Ave,42.3891958,-71.08436
+"812,300",Rats,7/11/2019 6:24,"137,262",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 1,7/11/2019 8:11,6 Macarthur St,42.3890917,-71.0879278
+"801,675",Rats,6/6/2019 11:12,"45,435",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 6,6/18/2019 15:11,34 Walker St,42.4013788,-71.1193214
+"794,225",Rats,5/10/2019 22:28,"32,103",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 4,5/16/2019 15:11,7 James St,42.387876,-71.093545
+"813,047",Rats,7/13/2019 19:41,"89,592",ISD Health,Open,7/13/2019 19:41,Service Requests,Ward 5,,32 Warwick St,42.3940545,-71.1091677
+"812,344",Rats,7/11/2019 9:22,"90,862",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 1,7/11/2019 15:11,6 Austin St,42.3872405,-71.0807203
+"814,082",Rats,7/17/2019 13:40,"19,289",ISD Health,Open,8/7/2019 15:42,Service Requests,Ward 2,,23 Harrison St,42.3819878,-71.1093172
+"795,277",Rats,5/15/2019 13:23,"126,959",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 4,5/16/2019 15:11,22 Sargent Ave,42.3905424,-71.0931157
+"796,035",Rats,5/17/2019 13:15,"45,650",ISD Health,Closed,5/17/2019 13:15,Service Requests,Ward 5,5/17/2019 13:15,46-63 Trull St,42.394564,-71.104256
+"797,539",Rats,5/22/2019 20:02,"133,881",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 2,5/23/2019 14:11,33 Oak St,42.3760984,-71.0984524
+"808,712",Rats,6/27/2019 21:08,"118,123",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 1,7/3/2019 15:11,66 Gilman St,42.38556814,-71.09173266
+"803,437",Rats,6/12/2019 9:33,"6,731",ISD Health,Closed,6/13/2019 8:11,Service Requests,Ward 5,6/13/2019 8:11,10 Hall St,42.3912398,-71.1137043
+"813,054",Rats,7/14/2019 12:51,"137,443",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 4,7/17/2019 15:11,29 Browning Rd,42.3942083,-71.0987329
+"812,906",Rats,7/12/2019 14:38,"46,466",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 2,7/25/2019 9:06,6 Miller St,42.3839666,-71.1127223
+"794,224",Rats,5/10/2019 20:53,"87,356",ISD Health,Closed,5/16/2019 9:11,Service Requests,Ward 1,5/16/2019 9:11,29 Minnesota Ave,42.3891958,-71.08436
+"808,259",Rats,6/27/2019 9:45,"15,711",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 6,7/3/2019 15:11,50 Bromfield Rd,42.4030541,-71.1164661
+"794,298",Rats,5/13/2019 7:00,"68,702",ISD Health,Closed,5/16/2019 9:11,Service Requests,Ward 3,5/16/2019 9:11,11 Willoughby St,42.389484,-71.101891
+"794,466",Rats,5/13/2019 12:50,0,ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 5,5/16/2019 15:11, Francis St,42.3908041,-71.1113975
+"803,259",Rats,6/11/2019 15:00,"8,614",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 1,6/18/2019 15:11,4 Webster St,42.3853277,-71.084295
+"794,266",Rats,5/11/2019 17:30,"133,197",ISD Health,Closed,10/9/2019 16:06,Service Requests,Ward 5,10/9/2019 16:06,54 Adams St,42.3950922,-71.1002184
+"810,210",Rats,7/2/2019 21:11,"10,552",ISD Health,Closed,9/5/2019 19:22,Service Requests,Ward 6,9/5/2019 19:22,225 Willow Ave,42.3981296,-71.1137969
+"796,737",Rats,5/21/2019 8:14,"121,267",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 6,5/23/2019 14:11,156 Orchard St,42.3957343,-71.1259823
+"800,540",Rats,6/3/2019 12:49,"112,713",ISD Health,Closed,6/6/2019 15:11,Service Requests,Ward 4,6/6/2019 15:11,392 Broadway,42.394754,-71.098195
+"808,173",Rats,6/26/2019 20:20,"79,907",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 2,6/27/2019 8:11,18 Miller St,42.3842342,-71.1129761
+"805,149",Rats,6/18/2019 11:09,"135,631",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 1,6/18/2019 15:11,95 Mt Vernon St,42.382247,-71.081987
+"810,699",Rats,7/4/2019 16:19,"136,889",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 2,7/11/2019 8:11,8 Quincy St,42.3823234,-71.1010233
+"811,551",Rats,7/8/2019 19:57,"26,958",ISD Health,Open,7/8/2019 19:57,Service Requests,Ward 2,,44 Dickinson St,42.3748837,-71.1007291
+"799,859",Rats,5/31/2019 9:55,"68,006",ISD Health,Closed,6/6/2019 15:11,Service Requests,Ward 4,6/6/2019 15:11,66A Marshall St,42.3895556,-71.0945674
+"804,658",Rats,6/14/2019 14:24,"2,824",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 1,6/18/2019 9:11,57 Alston St,42.3811036,-71.0894224
+"802,191",Rats,6/7/2019 12:30,"32,255",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 3,6/18/2019 15:11,11 Giles Park,42.3819927,-71.0971545
+"806,773",Rats,6/24/2019 9:52,"118,392",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 5,6/28/2019 8:11,36 Warwick St,42.3939616,-71.1090387
+"798,260",Rats,5/24/2019 20:12,"6,802",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 2,5/30/2019 9:11,300 Somerville Ave,42.380177,-71.097282
+"805,111",Rats,6/18/2019 10:24,"92,281",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 1,6/18/2019 15:11,145 Pearl St,42.3861093,-71.088659
+"798,679",Rats,5/28/2019 13:22,"54,106",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 1,5/30/2019 15:11,5 Wesley St,42.3870119,-71.0911775
+"807,927",Rats,6/26/2019 11:41,"33,348",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 7,6/28/2019 8:11, Simpson Ave,42.399964,-71.123695
+"804,863",Rats,6/17/2019 9:46,"127,326",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 2,6/18/2019 9:11,36 Adrian St,42.3771113,-71.0994292
+"805,442",Rats,6/18/2019 21:14,"109,930",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 4,6/28/2019 8:11,299 Broadway,42.3929925,-71.0925818
+"800,025",Rats,5/31/2019 13:52,"108,311",ISD Health,Closed,6/6/2019 9:11,Service Requests,Ward 2,6/6/2019 9:11,25 Oak St Pl,42.3762647,-71.0977185
+"809,991",Rats,7/2/2019 11:34,"14,105",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 2,7/3/2019 15:11,10 Poplar St,42.3777201,-71.0883108
+"803,429",Rats,6/12/2019 9:21,"89,251",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 5,6/18/2019 9:11,74 Cedar St,42.3910946,-71.1134193
+"807,248",Rats,6/25/2019 8:21,"8,183",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 4,6/27/2019 8:11,375 Broadway,42.3945253,-71.0964582
+"802,498",Rats,6/9/2019 13:24,"105,370",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 6,6/18/2019 15:11,68 Powder House Blvd,42.40281611,-71.12070337
+"794,335",Rats,5/13/2019 8:56,"133,210",ISD Health,Closed,5/13/2019 12:11,Service Requests,Ward 5,5/13/2019 12:11,399-407 Broadway,42.3955413,-71.0985008
+"813,207",Rats,7/15/2019 10:35,"33,348",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 7,7/17/2019 15:11,42 Simpson Ave,42.40039,-71.1234757
+"812,946",Rats,7/12/2019 16:10,"137,417",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 2,7/17/2019 15:11,20 Dane Ave,42.3804053,-71.1035144
+"809,264",Rats,6/30/2019 20:53,"114,708",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06,59 Bailey Rd,42.3957848,-71.0878901
+"804,817",Rats,6/16/2019 0:12,"135,551",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 1,6/18/2019 9:11, Oliver St,42.3836621,-71.0869165
+"804,883",Rats,6/17/2019 12:35,"54,693",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 4,6/18/2019 15:11, Heath St,42.3936212,-71.0925557
+"809,040",Rats,6/28/2019 15:18,"48,779",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,29 Oak St,42.3760653,-71.098134
+"812,464",Rats,7/11/2019 12:35,"137,290",ISD Health,Closed,7/11/2019 13:11,Service Requests,Ward 5,7/11/2019 13:11,62 Sycamore St,42.390229,-71.100627
+"798,354",Rats,5/27/2019 7:38,"6,802",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 2,5/30/2019 15:11,264 Washington St,42.379543,-71.097153
+"809,221",Rats,6/29/2019 20:49,"136,529",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06,37 Bradley St,42.38921,-71.093583
+"811,947",Rats,7/9/2019 22:14,"125,293",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 1,7/11/2019 8:11,82 Gilman St,42.3858478,-71.0922916
+"810,973",Rats,7/5/2019 13:29,"74,924",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 7,7/11/2019 8:11,19 Corinthian Rd,42.4011588,-71.1235525
+"795,484",Rats,5/16/2019 7:57,"111,167",ISD Health,Closed,5/16/2019 17:11,Service Requests,Ward 3,5/16/2019 17:11,631 Somerville Ave,42.3843223,-71.1106979
+"804,841",Rats,6/17/2019 6:38,"135,561",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 2,6/18/2019 15:11,37 Adrian St,42.3773577,-71.0995685
+"798,473",Rats,5/28/2019 9:25,"107,377",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 2,5/30/2019 15:11,214 Somerville Ave,42.3778777,-71.0912471
+"811,498",Rats,7/8/2019 16:20,"3,622",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 5,7/11/2019 15:11,34 Alpine St,42.3933967,-71.1096422
+"806,621",Rats,6/22/2019 8:22,"135,944",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 1,6/28/2019 8:11, Lincoln St,42.3857496,-71.0812912
+"804,188",Rats,6/13/2019 14:39,"13,811",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 3,6/18/2019 15:11,40 Central St,42.3859457,-71.1053249
+"812,316",Rats,7/11/2019 8:22,"137,265",ISD Health,Closed,7/11/2019 9:11,Service Requests,Ward 4,7/11/2019 9:11,15 Meacham St,42.3977404,-71.0965121
+"804,866",Rats,6/17/2019 10:00,"51,835",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 2,6/18/2019 9:11,21 Adrian St,42.377494,-71.0988069
+"802,944",Rats,6/11/2019 8:10,"12,416",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 5,6/18/2019 15:11,731 Somerville Ave,42.3864019,-71.11479
+"811,936",Rats,7/9/2019 18:49,"14,635",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 5,7/11/2019 15:11,31 Elm St,42.3870878,-71.1144236
+"803,729",Rats,6/12/2019 15:06,"19,909",ISD Health,Closed,6/13/2019 8:11,Service Requests,Ward 4,6/13/2019 8:11,32 Bradley St,42.38914924,-71.09390037
+"799,060",Rats,5/29/2019 11:51,"32,643",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 3,5/30/2019 15:11,8 Munroe St,42.3806825,-71.0912123
+"797,640",Rats,5/23/2019 10:28,"92,281",ISD Health,Closed,5/23/2019 15:11,Service Requests,Ward 1,5/23/2019 15:11,145 Pearl St,42.3861093,-71.088659
+"804,777",Rats,6/15/2019 8:05,"6,802",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 2,6/18/2019 9:11,24 Allen St,42.377823,-71.092979
+"809,927",Rats,7/2/2019 10:32,"32,307",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 3,7/3/2019 15:11,185 Summer St,42.3874714,-71.1078549
+"806,610",Rats,6/21/2019 20:59,"6,802",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 2,6/28/2019 8:11,3 Church St,42.380688,-71.101021
+"811,273",Rats,7/8/2019 11:20,"28,445",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 2,7/11/2019 8:11,5 Fremont Ave,42.3785842,-71.1004505
+"795,527",Rats,5/16/2019 9:29,"133,456",ISD Health,Closed,5/16/2019 17:11,Service Requests,Ward 1,5/16/2019 17:11,19 Cutter St,42.3867429,-71.0841093
+"806,669",Rats,6/23/2019 8:47,"51,835",ISD Health,Closed,6/24/2019 9:11,Service Requests,Ward 2,6/24/2019 9:11,21 Adrian St,42.377494,-71.0988069
+"810,103",Rats,7/2/2019 14:07,"26,596",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 2,7/3/2019 15:11,79 Merriam St,42.3790707,-71.0917694
+"798,386",Rats,5/28/2019 6:06,"110,637",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 2,5/30/2019 9:11,362 Lake St,42.3802892,-71.1003338
+"810,677",Rats,7/3/2019 18:36,"15,871",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 3,7/11/2019 15:11, School St,42.3870318,-71.1086953
+"808,523",Rats,6/27/2019 14:56,"13,657",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 2,6/28/2019 8:11,37R Oak St,42.376195,-71.098612
+"797,691",Rats,5/23/2019 12:06,"87,356",ISD Health,Closed,5/23/2019 12:06,Service Requests,Ward 1,5/23/2019 12:06,29 Minnesota Ave,42.3891958,-71.08436
+"802,830",Rats,6/10/2019 14:50,"46,466",ISD Health,Closed,6/13/2019 8:11,Service Requests,Ward 2,6/13/2019 8:11,6 Miller St,42.3839666,-71.1127223
+"796,738",Rats,5/21/2019 8:14,"9,476",ISD Health,Closed,5/23/2019 9:11,Service Requests,Ward 2,5/23/2019 9:11,35 Oak St,42.3760174,-71.0984544
+"798,261",Rats,5/24/2019 20:35,"15,145",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 2,5/30/2019 9:11,33 Oak St,42.3760984,-71.0984524
+"803,563",Rats,6/12/2019 12:30,"22,678",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 3,6/18/2019 15:11,9 Vinal Ave,42.3825275,-71.0978973
+"811,548",Rats,7/8/2019 19:14,"79,907",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 2,7/11/2019 8:11,18 Miller St,42.3842342,-71.1129761
+"805,441",Rats,6/18/2019 20:30,0,ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 3,6/27/2019 8:11,6 Belmont St,42.3846394,-71.110942
+"811,701",Rats,7/9/2019 11:17,"137,117",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 7,7/11/2019 15:11,22 Corinthian Rd,42.4008935,-71.1233828
+"812,396",Rats,7/11/2019 10:48,"45,435",ISD Health,Closed,10/15/2019 15:47,Service Requests,Ward 6,10/15/2019 15:47,34 Walker St,42.4013788,-71.1193214
+"808,134",Rats,6/26/2019 17:15,"136,208",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 6,6/28/2019 8:11,268 Willow Ave,42.3996231,-71.1133095
+"805,782",Rats,6/19/2019 16:08,"32,502",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 6,6/27/2019 8:11,156 Orchard St,42.3957343,-71.1259823
+"800,484",Rats,6/3/2019 11:36,"37,868",ISD Health,Closed,6/6/2019 9:11,Service Requests,Ward 3,6/6/2019 9:11,16 Columbus Ave,42.3802131,-71.0930433
+"794,282",Rats,5/12/2019 14:36,"6,802",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 2,5/16/2019 15:11, NA,42.379635,-71.096672
+"813,650",Rats,7/16/2019 10:56,"113,349",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 5,7/17/2019 15:11,397 Broadway,42.3954434,-71.0983615
+"809,143",Rats,6/28/2019 18:25,"59,696",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06,138 Sycamore St,42.3930984,-71.0983151
+"798,302",Rats,5/25/2019 14:53,"15,145",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 2,5/30/2019 9:11,33 Oak St,42.3760984,-71.0984524
+"796,569",Rats,5/20/2019 14:07,"133,681",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 4,5/23/2019 14:11,22 Ten Hills Rd,42.3949194,-71.086215
+"809,267",Rats,6/30/2019 22:05,"61,920",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 3,10/9/2019 15:06,46 Greenville St,42.382019,-71.092964
+"795,456",Rats,5/15/2019 20:05,"6,802",ISD Health,Closed,5/16/2019 8:11,Service Requests,Ward 2,5/16/2019 8:11,261 Washington St,42.379711,-71.096985
+"795,474",Rats,5/16/2019 7:05,211,ISD Health,Closed,5/16/2019 8:11,Service Requests,Ward 2,5/16/2019 8:11,23 Oak St,42.3761,-71.0978
+"807,700",Rats,6/25/2019 20:22,"135,698",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 1,6/27/2019 8:11,47 Mt Vernon St,42.3844846,-71.0804418
+"802,873",Rats,6/10/2019 15:50,"135,168",ISD Health,Closed,6/10/2019 15:50,Service Requests,Ward 1,6/10/2019 15:50,107 Cross St,42.3844964,-71.0891
+"814,131",Rats,7/17/2019 14:58,"30,572",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,49 Oak St,42.375772,-71.099089
+"804,932",Rats,6/17/2019 18:40,"135,586",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 1,6/18/2019 9:11, Ellsworth St,42.3870721,-71.0869737
+"796,525",Rats,5/20/2019 13:07,"100,621",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 7,5/23/2019 14:11,4 Ossipee Rd,42.4028979,-71.122083
+"803,010",Rats,6/11/2019 10:07,"37,991",ISD Health,Closed,6/11/2019 10:07,Service Requests,Ward 1,6/11/2019 10:07, Randolph Pl,42.3855632,-71.0884736
+"814,477",Rats,7/18/2019 15:10,"137,769",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 2,7/25/2019 9:06,24 Quincy St,42.3828277,-71.1008108
+"799,773",Rats,5/30/2019 22:07,"134,439",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 5,7/3/2019 15:11,55 Adams St,42.3949852,-71.0998897
+"805,110",Rats,6/18/2019 10:24,"16,989",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 7,6/18/2019 15:11,67 Ossipee Rd,42.4043554,-71.1245433
+"796,350",Rats,5/20/2019 9:28,"91,484",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 5,5/23/2019 14:11,145 Central St,42.392282,-71.1005844
+"800,190",Rats,6/1/2019 7:35,"3,136",ISD Health,Closed,6/6/2019 15:11,Service Requests,Ward 3,6/6/2019 15:11,18 Columbus Ave,42.38030123,-71.09308635
+"806,410",Rats,6/21/2019 12:51,"45,435",ISD Health,Closed,10/15/2019 15:48,Service Requests,Ward 6,10/15/2019 15:48,34 Walker St,42.4013788,-71.1193214
+"809,184",Rats,6/29/2019 10:56,"136,513",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06,17 Glen St,42.3872407,-71.0848521
+"795,631",Rats,5/16/2019 11:41,"133,473",ISD Health,Closed,5/16/2019 17:11,Service Requests,Ward 1,5/16/2019 17:11, Gilman St,42.3854065,-71.0914447
+"808,719",Rats,6/28/2019 7:02,"77,741",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 4,7/3/2019 15:11,15 Meacham St,42.3977404,-71.0965121
+"800,223",Rats,6/1/2019 11:33,"134,546",ISD Health,Closed,6/6/2019 15:11,Service Requests,Ward 1,6/6/2019 15:11,13 Rush St,42.3877105,-71.0856732
+"808,999",Rats,6/28/2019 13:52,"20,409",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 5,10/9/2019 15:06,32 Warwick St,42.3940545,-71.1091677
+"813,515",Rats,7/15/2019 18:26,"137,539",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 4,7/17/2019 15:11, Oakland Ave,42.392022,-71.0952571
+"814,243",Rats,7/18/2019 8:07,"62,304",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 4,7/25/2019 9:06,382 Broadway,42.3944769,-71.0974795
+"798,499",Rats,5/28/2019 9:48,"49,578",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 6,5/30/2019 15:11,7 Foskett St,42.3971651,-71.1152128
+"801,571",Rats,6/6/2019 8:35,"24,050",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 5,6/18/2019 15:11,36 Albion St,42.3902555,-71.1044893
+"806,029",Rats,6/20/2019 11:50,"17,450",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 4,6/27/2019 8:11,13 Radcliffe Rd,42.388677,-71.0934547
+"805,897",Rats,6/20/2019 9:21,"3,349",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 3,6/28/2019 8:11,44 Berkeley St,42.386269,-71.102257
+"811,229",Rats,7/8/2019 10:24,"143,519",ISD Health,Closed,10/7/2019 14:44,Service Requests,Ward 6,10/7/2019 14:44,30 Hall Ave,42.3983139,-71.1193442
+"803,435",Rats,6/12/2019 9:29,"6,731",ISD Health,Closed,6/13/2019 8:11,Service Requests,Ward 5,6/13/2019 8:11,10 Hall St,42.3912382,-71.1137138
+"801,554",Rats,6/6/2019 8:00,"30,655",ISD Health,Closed,6/6/2019 8:11,Service Requests,Ward 5,6/6/2019 8:11,73 Morrison Ave,42.3954014,-71.1140058
+"806,609",Rats,6/21/2019 20:20,"135,698",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 1,6/27/2019 8:11,47 Mt Vernon St,42.3844846,-71.0804418
+"798,370",Rats,5/27/2019 12:47,"6,802",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 2,5/30/2019 15:11,24 Lake St,42.380016,-71.099602
+"804,931",Rats,6/17/2019 18:03,0,ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 1,6/18/2019 15:11,115 Pennsylvania Ave,42.3897774,-71.0838532
+"811,552",Rats,7/8/2019 20:07,"127,497",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 1,7/11/2019 8:11,21 Macarthur St,42.388763,-71.088989
+"812,298",Rats,7/10/2019 21:37,"97,995",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward NA,7/11/2019 8:11, NA,(0.0,0
+"794,434",Rats,5/13/2019 11:48,"38,473",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 5,5/16/2019 15:11,28 Alpine St,42.3934891,-71.1099671
+"796,269",Rats,5/19/2019 11:20,0,ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 1,5/23/2019 14:11,30 Washington St,42.3813048,-71.0821363
+"796,208",Rats,5/17/2019 19:32,"13,657",ISD Health,Closed,5/23/2019 9:11,Service Requests,Ward 2,5/23/2019 9:11,37 Oak St,42.376004,-71.0985936
+"808,307",Rats,6/27/2019 10:44,"110,462",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 2,6/28/2019 8:11,41 Adrian St,42.3773151,-71.0997866
+"808,177",Rats,6/26/2019 21:10,"16,584",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 2,6/27/2019 8:11,6 Miller St,42.3839666,-71.1127223
+"813,300",Rats,7/15/2019 11:53,"125,647",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 3,7/25/2019 16:06,59 Bow St,42.3817,-71.099244
+"805,414",Rats,6/18/2019 16:53,"135,698",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 1,6/27/2019 8:11,41 Mt Vernon St,42.38460537,-71.08012705
+"810,157",Rats,7/2/2019 15:48,"4,083",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,23 Lake St,42.3802613,-71.0994689
+"795,781",Rats,5/16/2019 16:02,"48,898",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 6,5/23/2019 14:11,61 Hall Ave,42.3974777,-71.1181373
+"805,776",Rats,6/19/2019 15:57,"30,637",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 5,6/27/2019 8:11,809 Somerville Ave,42.3881102,-71.1178123
+"812,122",Rats,7/10/2019 12:16,"131,115",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,39 Springfield St,42.37503315,-71.09966283
+"811,944",Rats,7/9/2019 20:29,"113,294",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 7,7/11/2019 15:11,17 Packard Ave,42.402752,-71.124321
+"806,602",Rats,6/21/2019 19:06,"135,938",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 5,6/28/2019 8:11,10 Adelaide Rd,42.3872111,-71.1157852
+"799,034",Rats,5/29/2019 11:12,"97,381",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 3,5/30/2019 15:11,13-25 Warren Ave,42.380813,-71.095785
+"811,541",Rats,7/8/2019 18:40,"14,693",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 1,7/11/2019 15:11,17 Mt Vernon St,42.3857572,-71.0794204
+"812,297",Rats,7/10/2019 21:34,"137,260",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 5,7/11/2019 8:11,40 Elm St,42.3871534,-71.1150271
+"807,347",Rats,6/25/2019 10:34,"135,347",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 3,6/27/2019 8:11,42 Richdale Ave,42.3895943,-71.0995221
+"811,554",Rats,7/8/2019 20:13,"5,466",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 1,7/11/2019 8:11,82 Gilman St,42.3858478,-71.0922916
+"798,878",Rats,5/28/2019 18:13,"134,182",ISD Health,Closed,5/30/2019 15:11,Service Requests,Ward 4,5/30/2019 15:11,70 Moreland St,42.3983431,-71.096876
+"807,308",Rats,6/25/2019 9:49,"128,687",ISD Health,Closed,6/25/2019 9:49,Service Requests,Ward NA,6/25/2019 9:49, NA,(0.0,0
+"810,876",Rats,7/5/2019 12:03,"20,135",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 3,7/11/2019 15:11, Pitman St,42.3848429,-71.1106425
+"809,219",Rats,6/29/2019 20:10,"44,028",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06,15 Otis St,42.3875037,-71.0879162
+"813,885",Rats,7/17/2019 7:26,"78,493",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 4,7/25/2019 9:06, Sherman Ct,42.391255,-71.0931966
+"803,418",Rats,6/12/2019 9:06,"24,411",ISD Health,Closed,6/12/2019 10:11,Service Requests,Ward 5,6/12/2019 10:11,10 Hall St,42.3912398,-71.1137043
+"813,533",Rats,7/15/2019 22:16,"111,167",ISD Health,Closed,7/17/2019 15:11,Service Requests,Ward 2,7/17/2019 15:11,642 Somerville Ave,42.38429286,-71.1115565
+"801,060",Rats,6/4/2019 14:44,"2,485",ISD Health,Closed,6/4/2019 16:11,Service Requests,Ward 2,6/4/2019 16:11,50 Concord Ave,42.376446,-71.0986284
+"798,384",Rats,5/28/2019 6:03,"110,637",ISD Health,Closed,5/30/2019 9:11,Service Requests,Ward 3,5/30/2019 9:11,25 Stone Ave,42.3804581,-71.0950179
+"805,840",Rats,6/19/2019 20:58,"6,802",ISD Health,Closed,6/21/2019 10:11,Service Requests,Ward 2,6/21/2019 10:11,20 Lake St,42.380138,-71.099281
+"811,082",Rats,7/7/2019 18:41,"12,341",ISD Health,Closed,7/11/2019 15:11,Service Requests,Ward 2,7/11/2019 15:11,52 Dimick St,42.3769596,-71.1033288
+"809,402",Rats,7/1/2019 10:21,"136,577",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 1,7/3/2019 15:11,43 Aldrich St,42.3851948,-71.0918088
+"796,247",Rats,5/18/2019 13:49,"133,601",ISD Health,Closed,5/20/2019 8:11,Service Requests,Ward 5,5/20/2019 8:11,121 Albion St,42.3921839,-71.1086209
+"802,456",Rats,6/8/2019 14:05,"107,602",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 3,6/18/2019 15:11,35 Putnam St,42.384403,-71.097794
+"809,169",Rats,6/29/2019 9:00,"13,427",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06,13 Mt Pleasant St,42.3855799,-71.078531
+"806,039",Rats,6/20/2019 12:06,"128,687",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 7,6/28/2019 8:11,11 Hill St,42.4039946,-71.1276535
+"801,585",Rats,6/6/2019 9:14,"50,343",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 2,6/18/2019 15:11,22 Leland St,42.3799647,-71.1025857
+"796,034",Rats,5/17/2019 13:15,"128,521",ISD Health,Closed,5/23/2019 14:11,Service Requests,Ward 1,5/23/2019 14:11,32 Lincoln St,42.3854622,-71.0812901
+"809,816",Rats,7/1/2019 20:47,"6,802",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 2,7/3/2019 15:11,30 Prospect St,42.378368,-71.094452
+"810,049",Rats,7/2/2019 12:51,"74,372",ISD Health,Closed,7/3/2019 15:11,Service Requests,Ward 1,7/3/2019 15:11,12 Sunnyside Ave,42.388349,-71.0920015
+"800,757",Rats,6/3/2019 21:13,"79,907",ISD Health,Closed,6/6/2019 9:11,Service Requests,Ward 2,6/6/2019 9:11,18 Miller St,42.3842342,-71.1129761
+"810,822",Rats,7/5/2019 11:08,"20,135",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 3,7/11/2019 8:11,9-13 Belmont St,42.3847167,-71.1105242
+"804,829",Rats,6/16/2019 12:51,"131,175",ISD Health,Closed,6/18/2019 9:11,Service Requests,Ward 5,6/18/2019 9:11,70 Cedar St,42.3909446,-71.1135416
+"810,825",Rats,7/5/2019 11:13,"20,135",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 3,7/11/2019 8:11,2 Belmont Terrace,42.3849691,-71.1098279
+"811,549",Rats,7/8/2019 19:19,"7,880",ISD Health,Closed,7/11/2019 8:11,Service Requests,Ward 2,7/11/2019 8:11,16 Miller St,42.384167,-71.113022
+"794,011",Rats,5/10/2019 10:10,"31,187",ISD Health,Closed,5/16/2019 16:11,Service Requests,Ward 4,5/16/2019 16:11,62 Bradley St,42.3899029,-71.093748
+"811,601",Rats,7/9/2019 9:04,"137,096",ISD Health,Closed,7/9/2019 15:11,Service Requests,Ward 7,7/9/2019 15:11,25 Corinthian Rd,42.401023,-71.1237078
+"814,244",Rats,7/18/2019 8:08,"62,304",ISD Health,Closed,7/25/2019 15:06,Service Requests,Ward 5,7/25/2019 15:06,353 Lowell St,42.3957691,-71.1038626
+"798,375",Rats,5/27/2019 17:02,"1,890",ISD Health,Open,5/27/2019 17:02,Service Requests,Ward 1,,15 Wellington Ave,42.389648,-71.090637
+"805,036",Rats,6/18/2019 9:28,"14,243",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 5,6/18/2019 15:11,8 Lexington Ave,42.3933634,-71.1119673
+"800,438",Rats,6/3/2019 10:30,"4,334",ISD Health,Closed,6/6/2019 9:11,Service Requests,Ward 6,6/6/2019 9:11,37 Hall Ave,42.397861,-71.119245
+"813,081",Rats,7/15/2019 7:49,"51,906",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 2,7/25/2019 9:06,73 Oak St,42.3747522,-71.0995221
+"802,002",Rats,6/7/2019 6:54,"7,602",ISD Health,Closed,6/13/2019 9:11,Service Requests,Ward 3,6/13/2019 9:11,10 Bigelow St,42.382168,-71.093742
+"804,773",Rats,6/15/2019 0:11,"119,909",ISD Health,Closed,6/18/2019 15:11,Service Requests,Ward 2,6/18/2019 15:11,42 Allen St,42.377155,-71.093094
+"813,525",Rats,7/15/2019 19:36,"15,289",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 1,7/25/2019 9:06,15 Otis St,42.3875037,-71.0879162
+"795,529",Rats,5/16/2019 9:32,0,ISD Health,Closed,5/16/2019 17:11,Service Requests,Ward 1,5/16/2019 17:11,26 Mt Vernon St,42.3851265,-71.0794204
+"794,186",Rats,5/10/2019 16:43,"49,805",ISD Health,Closed,5/16/2019 15:11,Service Requests,Ward 2,5/16/2019 15:11,465 Somerville Ave,42.3826103,-71.1035297
+"807,225",Rats,6/24/2019 21:30,"59,113",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 2,6/28/2019 8:11,14 Quincy St,42.3825687,-71.1009324
+"806,421",Rats,6/21/2019 13:45,"4,830",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 4,6/27/2019 8:11,43 Marshall St,42.39072,-71.094299
+"800,653",Rats,6/3/2019 14:59,"134,659",ISD Health,Closed,6/6/2019 19:11,Service Requests,Ward 2,6/6/2019 19:11,63 Webster Ave,42.3759562,-71.0954833
+"807,488",Rats,6/25/2019 13:48,"6,741",ISD Health,Closed,6/28/2019 8:11,Service Requests,Ward 1,6/28/2019 8:11,15 Otis St,42.3875037,-71.0879162
+"806,544",Rats,6/21/2019 17:55,"135,698",ISD Health,Closed,6/27/2019 8:11,Service Requests,Ward 1,6/27/2019 8:11,47 Mt Vernon St,42.3844846,-71.0804418
+"814,582",Rats,7/18/2019 19:39,"137,793",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 5,7/25/2019 9:06,14 Bartlett St,42.3924825,-71.1031895
+"826,128",Rats,8/22/2019 8:36,"4,957",ISD Health,Closed,8/22/2019 10:06,Service Requests,Ward 3,8/22/2019 10:06,28 Richdale Ave,42.389298,-71.0988722
+"824,791",Rats,8/17/2019 19:47,"48,897",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 4,8/21/2019 9:06,373 Broadway,42.3944645,-71.0963189
+"822,228",Rats,8/8/2019 21:43,211,ISD Health,Closed,8/12/2019 8:06,Service Requests,Ward 2,8/12/2019 8:06,25 Oak St,42.37600291,-71.0980124
+"820,836",Rats,8/5/2019 16:33,"38,674",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 4,8/7/2019 8:06,129 Sycamore St,42.3926507,-71.098083
+"826,331",Rats,8/22/2019 12:32,"13,933",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 2,8/22/2019 15:06,75 Oak St,42.374647,-71.0996399
+"835,646",Rats,9/20/2019 11:40,"2,460",ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 1,9/26/2019 9:06,22-24 Fountain Ave,42.3835151,-71.0882411
+"831,411",Rats,9/5/2019 19:19,"135,698",ISD Health,Closed,9/12/2019 8:06,Service Requests,Ward 1,9/12/2019 8:06,47 Mt Vernon St,42.3844846,-71.0804418
+"833,833",Rats,9/13/2019 20:41,"15,317",ISD Health,Closed,9/13/2019 20:41,Service Requests,Ward 1,9/13/2019 20:41,11 Auburn Ave,42.38424,-71.0900981
+"821,414",Rats,8/7/2019 10:19,"59,351",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 4,8/7/2019 15:06,8 Heath St,42.3936956,-71.0931157
+"825,753",Rats,8/21/2019 9:34,"32,743",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 2,8/21/2019 15:11,319 Washington St,42.3795832,-71.1008684
+"828,863",Rats,8/29/2019 12:04,"99,169",ISD Health,Open,8/29/2019 12:04,Service Requests,Ward 6,,106 Josephine Ave,42.398855,-71.1129381
+"827,559",Rats,8/26/2019 16:11,"140,675",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 5,8/29/2019 15:06,146 Albion St,42.3923816,-71.1097814
+"818,976",Rats,7/30/2019 21:42,"138,567",ISD Health,Closed,8/1/2019 16:06,Service Requests,Ward 2,8/1/2019 16:06, Perry St,42.3784126,-71.1014926
+"814,962",Rats,7/20/2019 22:06,"101,523",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 2,7/25/2019 16:06,53 Park St,42.380959,-71.107658
+"815,391",Rats,7/22/2019 18:25,"2,267",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 1,7/25/2019 16:06,6 Cutter St,42.3871,-71.083351
+"815,127",Rats,7/22/2019 11:07,"19,909",ISD Health,Closed,7/25/2019 15:06,Service Requests,Ward 4,7/25/2019 15:06,13 Sargent Ave,42.39118721,-71.09296436
+"830,675",Rats,9/4/2019 11:35,"4,202",ISD Health,Closed,9/5/2019 9:06,Service Requests,Ward 2,9/5/2019 9:06,44 Oak St,42.3755791,-71.0986905
+"815,950",Rats,7/24/2019 11:55,"47,753",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 6,7/25/2019 16:06,51 Hawthorne St,42.3945804,-71.119205
+"824,786",Rats,8/17/2019 16:53,"58,070",ISD Health,Open,8/17/2019 16:53,Service Requests,Ward 2,,39 Mansfield St,42.379074,-71.090256
+"833,838",Rats,9/13/2019 21:05,"15,317",ISD Health,Closed,9/13/2019 21:05,Service Requests,Ward 1,9/13/2019 21:05,11 Auburn Ave,42.38424,-71.0900981
+"822,181",Rats,8/8/2019 17:51,"139,330",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 6,8/12/2019 15:06,24 Powder House Terrace,42.3997601,-71.1171624
+"818,854",Rats,7/30/2019 14:55,"53,124",ISD Health,Closed,7/30/2019 14:55,Service Requests,Ward 4,7/30/2019 14:55,87 Bailey Rd,42.3965112,-71.0887184
+"821,932",Rats,8/8/2019 12:47,"107,957",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 2,8/12/2019 15:06,9 Bolton St,42.3755973,-71.0979166
+"821,217",Rats,8/6/2019 15:49,"10,903",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 3,8/7/2019 15:06, Washington Ter,42.3798828,-71.0921493
+"817,989",Rats,7/28/2019 17:50,"4,260",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 3,8/1/2019 15:06,587 Somerville Ave,42.383926,-71.108856
+"830,573",Rats,9/4/2019 10:08,"141,562",ISD Health,Closed,9/5/2019 9:06,Service Requests,Ward 2,9/5/2019 9:06,42 Oak St,42.3755454,-71.0987329
+"815,051",Rats,7/22/2019 9:30,"19,774",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 3,7/25/2019 16:06,23 Vinal Ave,42.3832647,-71.097433
+"820,496",Rats,8/5/2019 9:06,"122,130",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 7,8/7/2019 8:06,35 Corinthian Rd,42.400732,-71.123905
+"836,244",Rats,9/23/2019 16:51,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,20 Highland Rd,42.3953965,-71.1135416
+"814,917",Rats,7/19/2019 16:24,"67,139",ISD Health,Closed,7/19/2019 16:24,Service Requests,Ward 1,7/19/2019 16:24,42 Crescent St,42.3831797,-71.0798458
+"816,349",Rats,7/25/2019 11:40,"51,826",ISD Health,Closed,7/25/2019 15:06,Service Requests,Ward 3,7/25/2019 15:06,74 Boston St,42.3828882,-71.094137
+"835,908",Rats,9/23/2019 8:11,"2,039",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 2,9/26/2019 8:06,22 Adrian St,42.3771569,-71.0988257
+"824,055",Rats,8/15/2019 10:28,"61,705",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 7,8/21/2019 9:06,79 Curtis St,42.4060239,-71.1251932
+"827,132",Rats,8/25/2019 14:58,"2,824",ISD Health,Open,8/25/2019 14:58,Service Requests,Ward 1,,19 Alston St,42.3818635,-71.089726
+"822,139",Rats,8/8/2019 16:23,"139,319",ISD Health,Closed,8/12/2019 8:06,Service Requests,Ward 4,8/12/2019 8:06,38 Meacham St,42.398006,-71.0974806
+"824,003",Rats,8/15/2019 8:48,"27,001",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 3,8/21/2019 9:06,26 Prescott St,42.3847236,-71.0992435
+"816,581",Rats,7/25/2019 19:06,"26,301",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 2,8/1/2019 15:06, Washington St,42.3793667,-71.1001502
+"821,281",Rats,8/7/2019 6:18,"50,515",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 2,8/7/2019 15:06,12 Quincy St,42.382472,-71.101054
+"815,800",Rats,7/23/2019 22:45,"122,949",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 3,8/1/2019 15:06,1 Bow Market Way,42.381,-71.0981
+"836,033",Rats,9/23/2019 11:09,0,ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 3,9/26/2019 8:06,10 Wesley Park,42.3822574,-71.0976187
+"815,017",Rats,7/22/2019 8:38,"44,972",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 1,7/25/2019 9:06, Oliver St,42.3836621,-71.0869165
+"832,507",Rats,9/10/2019 12:53,"125,002",ISD Health,Closed,9/11/2019 9:06,internally generated,Ward 5,9/11/2019 9:06,34b Murdock St,42.3955178,-71.1081567
+"815,792",Rats,7/23/2019 19:19,"6,802",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 2,7/25/2019 16:06,277 Washington St,42.379608,-71.097679
+"822,229",Rats,8/8/2019 21:49,"51,718",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 5,8/12/2019 15:06,21 Ashland St,42.390049,-71.114777
+"821,352",Rats,8/7/2019 9:31,"139,145",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 5,8/12/2019 15:06,33 Linden Ave,42.388682,-71.113182
+"833,902",Rats,9/15/2019 13:36,"142,307",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 5,9/18/2019 15:06,179 Albion St,42.3933183,-71.1113598
+"833,416",Rats,9/12/2019 19:45,"6,802",ISD Health,Closed,10/9/2019 16:06,Service Requests,Ward 2,10/9/2019 16:06,9 Hawkins St,42.3801,-71.098061
+"820,871",Rats,8/5/2019 20:14,"6,802",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 2,8/7/2019 8:06,18 Lake St,42.379932,-71.099083
+"836,241",Rats,9/23/2019 16:49,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,20-22 Prichard Ave,42.3954108,-71.1117404
+"834,745",Rats,9/17/2019 17:21,"105,839",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward NA,9/18/2019 15:06, NA,(0.0,0
+"816,123",Rats,7/24/2019 16:39,"9,231",ISD Health,Closed,7/24/2019 16:39,Service Requests,Ward 3,7/24/2019 16:39,23 Summit Ave,42.3842407,-71.0964117
+"827,346",Rats,8/26/2019 11:41,"88,978",ISD Health,Closed,8/29/2019 8:06,Service Requests,Ward 1,8/29/2019 8:06,165 Broadway,42.388866,-71.0855717
+"826,089",Rats,8/21/2019 18:42,"87,877",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 6,8/22/2019 15:06,19 Chapel St,42.39917444,-71.12143181
+"824,074",Rats,8/15/2019 10:46,"130,506",ISD Health,Closed,8/20/2019 15:10,Service Requests,Ward 3,8/20/2019 15:10,359 Somerville Ave,42.3811582,-71.098826
+"836,238",Rats,9/23/2019 16:43,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,121 Boston Ave,42.398477,-71.11023
+"828,996",Rats,8/29/2019 15:03,"54,414",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 3,9/5/2019 15:06,52 Richdale Ave,42.3898218,-71.0999863
+"829,792",Rats,9/1/2019 20:16,"111,167",ISD Health,Open,9/5/2019 20:45,Service Requests,Ward NA,, NA,(0.0,0
+"820,504",Rats,8/5/2019 9:14,"14,243",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 4,8/7/2019 15:06,51 Marshall St,42.390384,-71.0945635
+"822,623",Rats,8/9/2019 18:01,"139,410",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 4,8/12/2019 15:06,138 Sycamore St,42.3930984,-71.0983151
+"823,302",Rats,8/13/2019 11:03,"70,990",ISD Health,Closed,8/13/2019 16:06,Service Requests,Ward 2,8/13/2019 16:06,282 Mcgrath Hwy,42.3786167,-71.0896503
+"831,461",Rats,9/6/2019 8:57,"44,395",ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 2,9/18/2019 8:10,55 Beacon St,42.376167,-71.103468
+"824,489",Rats,8/16/2019 10:21,"13,457",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 5,8/21/2019 9:06,24 Hudson St,42.3896278,-71.1042964
+"820,387",Rats,8/3/2019 13:37,"105,903",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 2,8/7/2019 15:06,9 Olive Square,42.3799,-71.0984
+"833,384",Rats,9/12/2019 17:12,"26,166",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 2,9/18/2019 15:06,46 Hanson St,42.3792374,-71.1053713
+"818,668",Rats,7/30/2019 9:57,"23,185",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 6,8/1/2019 15:06,5 Dresden Cir,42.394712,-71.1199612
+"823,566",Rats,8/13/2019 20:19,"11,433",ISD Health,Closed,8/22/2019 10:06,Service Requests,Ward 7,8/22/2019 10:06,27 Whitman St,42.402317,-71.123306
+"823,954",Rats,8/14/2019 20:09,"135,698",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 1,8/21/2019 15:10,47 Mt Vernon St,42.3844846,-71.0804418
+"816,410",Rats,7/25/2019 13:29,"19,030",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 6,8/1/2019 15:06,1 Kenwood St,42.4003092,-71.1192978
+"833,719",Rats,9/13/2019 12:53,"142,268",ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 3,9/18/2019 8:10,156 School St,42.3880358,-71.0981062
+"824,658",Rats,8/16/2019 15:30,"47,373",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 7,8/21/2019 15:11,17 Dickson St,42.4044075,-71.1281176
+"833,914",Rats,9/16/2019 6:18,"8,060",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 2,9/18/2019 15:06,290 Beacon St,42.38343,-71.112671
+"818,324",Rats,7/29/2019 12:31,"136,327",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 5,8/1/2019 8:06,108 Hudson St,42.39101,-71.1084816
+"835,200",Rats,9/19/2019 10:07,"142,586",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 3,9/26/2019 15:06,34 Stone Ave,42.3808342,-71.0950926
+"825,941",Rats,8/21/2019 13:25,"43,918",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 4,8/21/2019 15:11,382 Medford St,42.3899663,-71.0982222
+"814,825",Rats,7/19/2019 12:06,"17,747",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 3,7/25/2019 16:06,37 Munroe St,42.3813878,-71.0926282
+"828,455",Rats,8/28/2019 14:29,"57,509",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 2,9/5/2019 15:06,38 Hanson St,42.3795051,-71.1054178
+"814,965",Rats,7/21/2019 9:16,"116,911",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 1,7/25/2019 16:06,28 Dana St,42.3878,-71.0903
+"829,684",Rats,8/30/2019 20:26,211,ISD Health,Closed,9/5/2019 9:06,Service Requests,Ward 2,9/5/2019 9:06,23 Oak St,42.3761,-71.0978
+"836,247",Rats,9/23/2019 16:53,"123,810",ISD Health,Closed,9/24/2019 16:06,Service Requests,Ward 1,9/24/2019 16:06,71 Rush St,42.3849838,-71.0874983
+"825,684",Rats,8/20/2019 20:33,"140,206",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 6,8/22/2019 15:06,27 Warner St,42.4018233,-71.1151199
+"835,892",Rats,9/22/2019 20:35,"59,077",ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 2,9/26/2019 9:06,39 Oak St,42.3760681,-71.0987517
+"821,958",Rats,8/8/2019 13:11,"130,506",ISD Health,Closed,8/9/2019 12:06,Service Requests,Ward 3,8/9/2019 12:06,359 Somerville Ave,42.3811582,-71.098826
+"832,219",Rats,9/9/2019 15:38,"135,698",ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 1,9/18/2019 8:10,47 Mt Vernon St,42.3844846,-71.0804418
+"836,082",Rats,9/23/2019 12:32,"142,785",ISD Health,Closed,9/23/2019 16:42,Service Requests,Ward 5,9/23/2019 16:42,121 Boston Ave,42.398477,-71.11023
+"816,237",Rats,7/25/2019 9:01,"17,702",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 2,7/25/2019 16:06,92 Newton St,42.3768027,-71.0976187
+"818,073",Rats,7/29/2019 9:16,"63,605",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 4,8/1/2019 15:06, Dartmouth St,42.391737,-71.0965331
+"815,534",Rats,7/23/2019 11:10,"90,611",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 3,7/25/2019 16:06,7 Thorpe St,42.3845924,-71.0939049
+"820,436",Rats,8/4/2019 20:14,"138,920",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 2,8/7/2019 15:06,29 Mansfield St,42.378765,-71.090202
+"825,748",Rats,8/21/2019 9:31,"32,743",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 2,8/21/2019 15:11,311 Washington St,42.3794868,-71.1003403
+"814,905",Rats,7/19/2019 15:20,"137,853",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 4,7/25/2019 9:06,367 Broadway,42.3942899,-71.0959475
+"824,348",Rats,8/15/2019 20:06,"29,388",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 1,8/21/2019 9:06,5 Chester Ave,42.3831405,-71.0905878
+"818,919",Rats,7/30/2019 16:18,"103,305",ISD Health,Closed,8/1/2019 16:06,Service Requests,Ward 1,8/1/2019 16:06,8 Gilman St,42.3843858,-71.089579
+"815,392",Rats,7/22/2019 18:30,"121,752",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 5,7/25/2019 16:06,22 Hudson St,42.3894868,-71.1039693
+"822,224",Rats,8/8/2019 20:36,"6,802",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 2,8/12/2019 15:06,14 Hawkins St,42.379837,-71.097839
+"836,243",Rats,9/23/2019 16:50,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,44 Pearson Ave,42.3962193,-71.1120561
+"816,402",Rats,7/25/2019 13:15,"62,304",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 4,7/25/2019 16:06,363 Broadway,42.3941058,-71.0957149
+"826,102",Rats,8/21/2019 21:41,0,ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 3,8/22/2019 15:06,16 Warren Ave,42.38092876,-71.09603811
+"814,974",Rats,7/21/2019 15:56,"126,491",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 1,7/25/2019 16:06,93 Myrtle St,42.3852651,-71.0826238
+"824,941",Rats,8/19/2019 10:34,"119,733",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 1,8/21/2019 15:11,15 Aldrich St,42.3860546,-71.0911659
+"828,577",Rats,8/28/2019 17:34,"15,548",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 4,9/5/2019 15:06,232 School St,42.3917277,-71.0957154
+"815,540",Rats,7/23/2019 11:15,"76,936",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 6,7/25/2019 9:06,14 Liberty Ave,42.4003183,-71.1152128
+"833,837",Rats,9/13/2019 21:00,"15,317",ISD Health,Closed,9/13/2019 21:00,Service Requests,Ward 1,9/13/2019 21:00,11 Auburn Ave,42.38424,-71.0900981
+"825,754",Rats,8/21/2019 9:35,"32,743",ISD Health,Open,8/21/2019 9:35,Service Requests,Ward 2,,325 Washington St,42.3796014,-71.1011933
+"819,111",Rats,7/31/2019 11:30,"136,084",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 1,8/1/2019 15:06,11 Austin St,42.387666,-71.080181
+"822,225",Rats,8/8/2019 20:40,"6,802",ISD Health,Closed,8/12/2019 8:06,Service Requests,Ward 2,8/12/2019 8:06,17 Lake St,42.380348,-71.099037
+"827,255",Rats,8/26/2019 10:04,"28,336",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 3,8/29/2019 15:06,192 Summer St,42.3869617,-71.1087834
+"823,315",Rats,8/13/2019 11:21,"139,610",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 1,8/21/2019 15:10,187 Broadway,42.3893912,-71.086802
+"820,661",Rats,8/5/2019 13:04,"2,813",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 4,8/7/2019 8:06,3-16 Heath St,42.3938545,-71.0926547
+"830,463",Rats,9/3/2019 19:30,"6,802",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 2,9/5/2019 15:06,9 Hawkins St,42.380077,-71.09845
+"819,624",Rats,8/1/2019 10:35,"4,459",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 2,8/1/2019 15:06,40 School St,42.3833954,-71.1013558
+"820,361",Rats,8/2/2019 20:42,"138,899",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 3,8/7/2019 15:06,9 Prospect Hill Ave,42.3818565,-71.0913516
+"823,126",Rats,8/12/2019 17:32,"33,412",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 2,8/22/2019 15:06,17 School St,42.3826016,-71.101379
+"834,382",Rats,9/17/2019 8:42,"109,847",ISD Health,Closed,9/18/2019 8:11,Service Requests,Ward 3,9/18/2019 8:11, Bow St Pl,42.3822104,-71.0992621
+"818,902",Rats,7/30/2019 16:00,"48,098",ISD Health,Closed,8/1/2019 16:06,Service Requests,Ward 6,8/1/2019 16:06,45 Walker St,42.4016762,-71.1194835
+"833,072",Rats,9/12/2019 5:34,"44,862",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 1,9/18/2019 15:06,75 Bonair St,42.38921,-71.091042
+"824,351",Rats,8/15/2019 21:28,"8,060",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 2,8/21/2019 15:11,6 Beacon Pl,42.377739,-71.105133
+"820,376",Rats,8/3/2019 9:48,0,ISD Health,Closed,8/7/2019 8:06,internally generated,Ward 4,8/7/2019 8:06,50 Dartmouth St,42.3926813,-71.0960868
+"818,695",Rats,7/30/2019 10:34,"100,621",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 7,8/1/2019 15:06,4 Ossipee Rd,42.4028979,-71.122083
+"833,828",Rats,9/13/2019 18:42,"142,296",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 6,9/18/2019 15:06,14 Dresden Cir,42.39515254,-71.12043804
+"833,417",Rats,9/12/2019 19:46,"6,802",ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 2,9/18/2019 8:10,5 Hawkins St,42.380264,-71.097977
+"824,015",Rats,8/15/2019 9:11,"29,075",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 3,8/21/2019 15:10,2 Lawson Terrace,42.3839667,-71.0978509
+"824,485",Rats,8/16/2019 10:15,"69,797",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 1,8/21/2019 9:06,230 Broadway,42.3898851,-71.0892625
+"829,562",Rats,8/30/2019 14:04,"37,740",ISD Health,Closed,9/5/2019 9:06,Service Requests,Ward 6,9/5/2019 9:06,19 Chester St,42.393995,-71.1242648
+"819,584",Rats,8/1/2019 10:00,"93,706",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 6,8/1/2019 15:06,18 Charnwood Rd,42.3929826,-71.1165349
+"820,650",Rats,8/5/2019 12:39,"60,434",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 4,8/7/2019 8:06,7 Heath St,42.3939662,-71.0927443
+"823,552",Rats,8/13/2019 17:29,"56,343",ISD Health,Closed,8/13/2019 17:29,Service Requests,Ward 6,8/13/2019 17:29,138 College Ave,42.4006131,-71.1174323
+"821,282",Rats,8/7/2019 6:18,"139,133",ISD Health,Closed,8/7/2019 9:06,Service Requests,Ward 2,8/7/2019 9:06,46 Lincoln Pkwy,42.3778917,-71.10010755
+"836,203",Rats,9/23/2019 15:28,"142,823",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 4,9/26/2019 15:06,111 Moreland St,42.399399,-71.095408
+"830,896",Rats,9/4/2019 16:48,"79,098",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 6,9/5/2019 15:06,41 Windsor Rd,42.3935872,-71.1166742
+"835,913",Rats,9/23/2019 8:23,"76,571",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 4,9/26/2019 15:06, Sargent Ave,42.3909623,-71.0928879
+"824,362",Rats,8/16/2019 7:52,"43,902",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 3,8/22/2019 15:06,61 Columbus Ave,42.3818779,-71.0947405
+"820,628",Rats,8/5/2019 12:03,"59,893",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 4,8/7/2019 8:06,88 Thurston St,42.3928813,-71.0967846
+"814,586",Rats,7/18/2019 21:24,"125,293",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 1,7/25/2019 9:06,81 Gilman St,42.3861017,-71.0920943
+"833,886",Rats,9/14/2019 17:54,"135,698",ISD Health,Closed,9/18/2019 8:11,Service Requests,Ward 1,9/18/2019 8:11,47 Mt Vernon St,42.3844846,-71.0804418
+"831,797",Rats,9/6/2019 22:36,"138,567",ISD Health,Closed,9/12/2019 8:06,Service Requests,Ward 2,9/12/2019 8:06,42 Dickinson St,42.3749423,-71.1007774
+"824,355",Rats,8/15/2019 23:40,"139,884",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 5,8/21/2019 9:06,20 Tennyson St,42.3916873,-71.1002854
+"833,830",Rats,9/13/2019 19:24,"21,038",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 1,9/18/2019 15:06,32 Knowlton St,42.3821907,-71.0872198
+"820,083",Rats,8/2/2019 9:56,"138,840",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 7,8/7/2019 8:06, Holland St,42.3998502,-71.1252368
+"827,065",Rats,8/24/2019 12:07,"21,111",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 7,8/29/2019 15:06, NA,42.4092344,-71.127169
+"821,349",Rats,8/7/2019 9:29,"61,705",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 7,8/12/2019 15:06,79 Curtis St,42.4060239,-71.1251932
+"819,155",Rats,7/31/2019 12:29,"29,500",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 5,8/1/2019 8:06,157 Central St,42.393054,-71.099858
+"830,737",Rats,9/4/2019 12:58,"11,248",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 1,9/5/2019 15:06,6 Dell St,42.3827566,-71.0880903
+"820,933",Rats,8/6/2019 9:29,"49,413",ISD Health,Open,10/3/2019 8:25,Service Requests,Ward 7,,20 Curtis St,42.404084,-71.12701
+"820,811",Rats,8/5/2019 15:54,"54,106",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 1,8/7/2019 8:06,187 Pearl St,42.3869159,-71.0912123
+"835,033",Rats,9/18/2019 14:51,"142,553",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 1,9/26/2019 8:06, Autumn St,42.3885031,-71.0874189
+"828,115",Rats,8/28/2019 8:10,0,ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 4,8/29/2019 15:06,27 Jackson Rd,42.3897024,-71.0929764
+"823,680",Rats,8/14/2019 10:13,"16,121",ISD Health,Closed,8/21/2019 8:06,Service Requests,Ward 4,8/21/2019 8:06,8 Heath St,42.3936956,-71.0931157
+"822,562",Rats,8/9/2019 15:29,"139,406",ISD Health,Closed,8/12/2019 8:06,Service Requests,Ward 5,8/12/2019 8:06, Linden Ave,42.3887307,-71.11346
+"830,579",Rats,9/4/2019 10:12,"141,566",ISD Health,Closed,9/5/2019 9:06,Service Requests,Ward 2,9/5/2019 9:06, Oak St,42.3747067,-71.0993322
+"835,941",Rats,9/23/2019 9:14,"22,168",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 6,9/26/2019 8:06,271 Willow Ave,42.3996182,-71.1128453
+"814,547",Rats,7/18/2019 17:21,"110,092",ISD Health,Closed,7/25/2019 15:06,Service Requests,Ward 3,7/25/2019 15:06,28 Montrose St,42.3885025,-71.0994292
+"833,950",Rats,9/16/2019 8:40,"133,735",ISD Health,Closed,9/16/2019 9:06,Service Requests,Ward 1,9/16/2019 9:06,32 Fountain Ave,42.3833477,-71.0879834
+"828,202",Rats,8/28/2019 9:53,"124,359",ISD Health,Closed,8/28/2019 9:53,Service Requests,Ward NA,8/28/2019 9:53, NA,(0.0,0
+"836,242",Rats,9/23/2019 16:50,"142,785",ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 5,9/26/2019 9:06,88 Pearson Ave,42.3974392,-71.1112428
+"823,127",Rats,8/12/2019 17:33,"139,548",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 2,8/21/2019 9:06,17 School St,42.3826016,-71.101379
+"833,949",Rats,9/16/2019 8:39,"19,276",ISD Health,Closed,9/18/2019 8:11,Service Requests,Ward 7,9/18/2019 8:11,25 Sunset Rd,42.4088896,-71.1246057
+"823,865",Rats,8/14/2019 14:42,"68,495",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 1,8/21/2019 15:10,149 Pearl St,42.3860696,-71.08892675
+"822,650",Rats,8/10/2019 6:30,"8,084",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 6,8/12/2019 15:06,5 St James Ave,42.392036,-71.118922
+"823,640",Rats,8/14/2019 9:28,"6,713",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 5,8/21/2019 15:10,29 Main St,42.3958381,-71.0985008
+"818,507",Rats,7/29/2019 16:31,0,ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 2,8/1/2019 15:06,34 Allen St,42.3774662,-71.0930228
+"821,500",Rats,8/7/2019 12:12,"35,285",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 2,8/7/2019 15:06,68R Dane St,42.380154,-71.1043255
+"820,538",Rats,8/5/2019 9:48,"135,939",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 6,8/7/2019 15:06,60 Irving St,42.4003219,-71.1226401
+"819,115",Rats,7/31/2019 11:33,"118,022",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 7,8/1/2019 8:06,29 Corinthian Rd,42.4009192,-71.1237687
+"819,211",Rats,7/31/2019 13:51,"11,952",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 4,8/1/2019 8:06, Heath St,42.3939575,-71.0932606
+"824,082",Rats,8/15/2019 11:05,"83,529",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 1,8/21/2019 15:10,75 Rush St,42.3847558,-71.087684
+"821,219",Rats,8/6/2019 15:52,0,ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 7,8/7/2019 15:06,198 Holland St,42.401584,-71.1266012
+"824,808",Rats,8/18/2019 10:35,"139,973",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 1,8/21/2019 9:06,3 Chester Ave,42.382808,-71.0904579
+"832,304",Rats,9/10/2019 8:18,"32,271",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 6,10/9/2019 15:06,901 Broadway,42.4009824,-71.1191121
+"831,255",Rats,9/5/2019 14:19,"21,750",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 4,9/18/2019 15:06,74-76 Heath St,42.3950163,-71.0956509
+"835,092",Rats,9/18/2019 17:12,"135,698",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 1,9/26/2019 8:06,47 Mt Vernon St,42.3844846,-71.0804418
+"814,599",Rats,7/19/2019 7:25,"1,695",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 5,7/25/2019 16:06,143 Central St,42.3921282,-71.1005801
+"821,994",Rats,8/8/2019 13:57,"11,359",ISD Health,Closed,8/12/2019 8:06,Service Requests,Ward 3,8/12/2019 8:06,359 Somerville Ave,42.3811582,-71.098826
+"816,593",Rats,7/25/2019 23:06,"134,084",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 1,8/1/2019 15:06,66 Pearl St,42.3843,-71.0839
+"825,816",Rats,8/21/2019 10:42,"46,279",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 6,8/21/2019 15:11,40 Powder House Blvd,42.4019043,-71.1192978
+"835,888",Rats,9/22/2019 18:48,"2,957",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 4,9/26/2019 8:06,421 Medford St,42.391872,-71.099869
+"831,208",Rats,9/5/2019 13:33,"95,303",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 7,9/5/2019 15:06,38 Chetwynd Rd,42.4083363,-71.1257038
+"827,252",Rats,8/26/2019 10:02,"28,336",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 3,8/29/2019 15:06, Spring St,42.3870078,-71.1079307
+"814,964",Rats,7/21/2019 9:04,"27,544",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 5,7/25/2019 16:06,11 Murdock St,42.3961212,-71.1090851
+"823,961",Rats,8/14/2019 21:44,"44,028",ISD Health,Closed,8/14/2019 21:44,Service Requests,Ward 1,8/14/2019 21:44,15 Otis St,42.3875037,-71.0879162
+"825,242",Rats,8/19/2019 17:06,"136,540",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 5,8/21/2019 15:11,438 Medford St,42.3927121,-71.101054
+"814,947",Rats,7/20/2019 11:43,"137,866",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 4,7/25/2019 16:06, Sherman Ct,42.391255,-71.0931966
+"835,869",Rats,9/21/2019 21:55,965,ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 1,9/26/2019 9:06,47 Pearl St,42.384247,-71.082634
+"825,450",Rats,8/20/2019 11:52,"132,241",ISD Health,Open,8/20/2019 11:52,Service Requests,Ward 7,,107 Hillsdale Rd,42.4092417,-71.1264465
+"825,698",Rats,8/21/2019 8:02,0,ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 3,8/21/2019 9:06,6 Belmont St,42.3846394,-71.110942
+"830,942",Rats,9/4/2019 22:41,"5,466",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 1,9/5/2019 15:06,60 Gilman St,42.3854065,-71.0914447
+"820,334",Rats,8/2/2019 16:53,"28,445",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 2,8/7/2019 8:06, Parker St,42.3793667,-71.1001502
+"826,098",Rats,8/21/2019 20:51,0,ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 6,8/22/2019 15:06,15 Park Ave,42.3982232,-71.1227329
+"828,274",Rats,8/28/2019 11:08,"120,905",ISD Health,Closed,8/29/2019 8:06,Service Requests,Ward 2,8/29/2019 8:06,18R Lake St,42.3798523,-71.09925
+"826,344",Rats,8/22/2019 12:49,0,ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 1,8/29/2019 15:06,107-109 Cross St,42.3844964,-71.0891
+"818,055",Rats,7/29/2019 8:56,"77,801",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 6,8/1/2019 15:06,145 College Ave,42.4016604,-71.116559
+"824,746",Rats,8/17/2019 8:06,"5,868",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 2,8/21/2019 15:11,69 Concord Ave,42.376694,-71.099892
+"836,250",Rats,9/23/2019 16:55,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,66 Highland Rd,42.3968919,-71.1125203
+"827,040",Rats,8/23/2019 23:23,"99,605",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 2,8/29/2019 15:06,8 Calvin St,42.378517,-71.103935
+"820,070",Rats,8/2/2019 9:45,"84,146",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 3,8/7/2019 8:06,17 Montrose St,42.3885322,-71.0987329
+"832,426",Rats,9/10/2019 11:16,0,ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 1,9/18/2019 8:10, Fountain Ave,42.3834439,-71.0886005
+"835,070",Rats,9/18/2019 15:59,"5,008",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,17 Mossland St,42.3875838,-71.1156232
+"836,239",Rats,9/23/2019 16:44,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,12 Boston Ave,42.395038,-71.1112626
+"823,691",Rats,8/14/2019 10:22,"4,950",ISD Health,Closed,8/21/2019 8:06,Service Requests,Ward 6,8/21/2019 8:06,16 Windom St,42.3934613,-71.1200405
+"823,146",Rats,8/12/2019 19:13,"135,698",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 1,8/21/2019 9:06,47 Mt Vernon St,42.3844846,-71.0804418
+"815,018",Rats,7/22/2019 8:47,"137,882",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 1,7/25/2019 16:06, Oliver St,42.3836621,-71.0869165
+"814,944",Rats,7/20/2019 11:02,"137,864",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 1,7/25/2019 16:06,6 Wheeler St,42.3840908,-71.0808371
+"832,032",Rats,9/9/2019 10:57,"33,219",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 3,9/18/2019 15:06,119 Lowell St,42.3882707,-71.1090619
+"836,263",Rats,9/23/2019 18:38,"142,839",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,22 Linden Ave,42.388286,-71.1140522
+"831,616",Rats,9/6/2019 12:21,"131,115",ISD Health,Closed,9/10/2019 13:06,Service Requests,Ward 2,9/10/2019 13:06,65 Beacon St,42.3763563,-71.1037916
+"827,726",Rats,8/27/2019 9:49,"7,602",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 3,8/29/2019 15:06,10 Bigelow St,42.382233,-71.093636
+"819,921",Rats,8/1/2019 17:37,"63,087",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward NA,8/7/2019 8:06, NA,(0.0,0
+"819,974",Rats,8/1/2019 23:01,"138,816",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 1,8/7/2019 15:06,62 Flint St,42.384876,-71.088989
+"821,792",Rats,8/8/2019 9:26,"13,763",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 4,8/12/2019 15:06,20 Meacham St,42.3976156,-71.0968186
+"825,214",Rats,8/19/2019 15:55,"131,115",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 1,8/21/2019 9:06,165 Pearl St,42.3864585,-71.0896791
+"816,551",Rats,7/25/2019 16:46,0,ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 1,8/1/2019 15:06,8 Macarthur St,42.3889737,-71.0879974
+"817,962",Rats,7/28/2019 9:15,"10,466",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 3,8/1/2019 8:06,15 Wesley Park,42.3823346,-71.0972009
+"822,653",Rats,8/10/2019 7:00,"3,136",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 3,8/12/2019 15:06,10 Columbus Ave,42.3800345,-71.0930692
+"823,925",Rats,8/14/2019 17:11,"124,367",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 1,8/21/2019 15:10,30 Otis St,42.3874845,-71.0888911
+"831,417",Rats,9/5/2019 20:42,"6,802",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 2,9/18/2019 15:06,304 Somerville Ave,42.38018,-71.097931
+"821,718",Rats,8/7/2019 19:40,"139,232",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 7,8/12/2019 15:06,11 Hill St,42.4039946,-71.1276535
+"827,094",Rats,8/24/2019 20:30,"6,747",ISD Health,Closed,8/29/2019 8:06,Service Requests,Ward 2,8/29/2019 8:06,67 Concord Ave,42.3766837,-71.0996962
+"836,272",Rats,9/23/2019 21:11,"29,353",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 3,9/26/2019 15:06,252 Medford St,42.3836833,-71.092164
+"834,819",Rats,9/18/2019 9:11,"142,501",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward NA,9/18/2019 15:06, NA,(0.0,0
+"822,727",Rats,8/11/2019 22:06,"51,779",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 2,8/12/2019 15:06,36 Houghton St,42.3747692,-71.0990443
+"825,018",Rats,8/19/2019 11:54,"131,115",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 2,8/21/2019 9:06, Dickinson St,42.37506,-71.1009609
+"825,747",Rats,8/21/2019 9:30,"32,743",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 2,8/22/2019 15:06,321 Washington St,42.3800305,-71.1015627
+"826,339",Rats,8/22/2019 12:43,"26,630",ISD Health,Open,9/9/2019 16:01,Service Requests,Ward 1,,23 Fountain Ave,42.3832004,-71.0882992
+"827,721",Rats,8/27/2019 9:46,"7,790",ISD Health,Closed,8/29/2019 15:06,Service Requests,Ward 3,8/29/2019 15:06,47 Greenville St,42.3820407,-71.0933014
+"833,829",Rats,9/13/2019 19:16,"142,297",ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 3,9/18/2019 8:10,156 School St,42.3880358,-71.0981062
+"833,386",Rats,9/12/2019 17:12,"26,166",ISD Health,Closed,9/18/2019 9:06,Service Requests,Ward 2,9/18/2019 9:06,13 Hanson Ave,42.3793651,-71.1048143
+"835,856",Rats,9/21/2019 13:35,"17,172",ISD Health,Closed,9/23/2019 12:06,Service Requests,Ward 6,9/23/2019 12:06,8-10 Willow Ave,42.3917189,-71.1187295
+"820,391",Rats,8/3/2019 15:08,"138,911",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 2,8/7/2019 15:06,17 Skehan St,42.3800246,-71.1054178
+"818,508",Rats,7/29/2019 16:32,"57,758",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 4,8/1/2019 15:06,20 Langmaid Ave,42.3937456,-71.0936263
+"822,117",Rats,8/8/2019 15:50,"13,811",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 2,8/12/2019 15:06,148 Summer St,42.3858611,-71.1050464
+"820,026",Rats,8/2/2019 9:13,"79,337",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 4,8/7/2019 8:06,129 Sycamore St,42.3926507,-71.098083
+"835,498",Rats,9/19/2019 21:50,"128,476",ISD Health,Open,9/23/2019 22:22,Service Requests,Ward 2,,5 Fremont Ave,42.3785842,-71.1004505
+"814,585",Rats,7/18/2019 21:01,"31,330",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 2,7/25/2019 9:06,26 Lake St,42.380207,-71.099655
+"825,750",Rats,8/21/2019 9:33,"32,743",ISD Health,Open,8/21/2019 9:33,Service Requests,Ward 2,,315 Washington St,42.379602,-71.1005434
+"815,753",Rats,7/23/2019 16:58,"11,637",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 2,7/25/2019 9:06,15 Linwood St,42.3761,-71.0856
+"834,807",Rats,9/18/2019 8:45,"4,459",ISD Health,Closed,9/18/2019 9:06,Service Requests,Ward 3,9/18/2019 9:06,22 Vinal Ave,42.38302031,-71.09788869
+"817,992",Rats,7/28/2019 19:35,"93,676",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 2,8/1/2019 15:06,25 Adrian St,42.377468,-71.098938
+"829,334",Rats,8/30/2019 10:45,"27,444",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 3,9/5/2019 15:06,62 Putnam St,42.3857135,-71.097433
+"823,063",Rats,8/12/2019 15:27,"139,532",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 6,8/22/2019 15:06, Day St,42.3948856,-71.1248
+"818,124",Rats,7/29/2019 10:01,"127,704",ISD Health,Open,8/12/2019 9:22,Service Requests,Ward 7,,23 Sunset Rd,42.4088964,-71.1246362
+"819,444",Rats,7/31/2019 21:47,"29,079",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 5,8/1/2019 8:06,163 Central St,42.3933066,-71.0997542
+"818,290",Rats,7/29/2019 11:57,"32,538",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 1,8/1/2019 15:06,39 Wigglesworth St,42.388575,-71.0909337
+"835,004",Rats,9/18/2019 14:04,"140,806",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 2,9/26/2019 15:06,25 Lewis St,42.3776123,-71.102586
+"818,107",Rats,7/29/2019 9:50,"32,271",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 6,8/1/2019 15:06,901 Broadway,42.4009824,-71.1191121
+"835,507",Rats,9/20/2019 6:28,0,ISD Health,Closed,9/20/2019 6:29,Service Requests,Ward 7,9/20/2019 6:29,114 Packard Ave,42.4059017,-71.1227731
+"823,480",Rats,8/13/2019 15:20,"48,098",ISD Health,Closed,8/21/2019 8:06,Service Requests,Ward 6,8/21/2019 8:06,41 Walker St,42.4016525,-71.1193442
+"825,871",Rats,8/21/2019 11:45,"137,483",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 2,8/22/2019 15:06,3 Village St,42.3806268,-71.1048143
+"836,062",Rats,9/23/2019 11:53,0,ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 6,9/26/2019 15:06,48 Burnside Ave,42.3918185,-71.1167016
+"835,219",Rats,9/19/2019 10:33,"49,483",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 1,9/26/2019 15:06,25 Arlington St,42.3862814,-71.0826005
+"818,326",Rats,7/29/2019 12:33,"28,621",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 6,8/1/2019 15:06,14 William St,42.3992827,-71.1204583
+"820,884",Rats,8/6/2019 7:34,"15,801",ISD Health,Closed,8/6/2019 7:34,Service Requests,Ward 1,8/6/2019 7:34,99 Flint St,42.3857053,-71.0904231
+"818,751",Rats,7/30/2019 12:05,"24,216",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 2,8/1/2019 8:06,6 Oak St,42.3759393,-71.0966903
+"818,519",Rats,7/29/2019 17:19,"43,734",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 4,8/1/2019 8:06,75 Heath St,42.3952706,-71.0953904
+"829,520",Rats,8/30/2019 13:17,0,ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 6,9/5/2019 15:06,19 Windom St,42.3934273,-71.1196228
+"819,967",Rats,8/1/2019 21:09,"6,802",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 2,8/7/2019 8:06,41 Lake St,42.380577,-71.100594
+"817,960",Rats,7/28/2019 9:06,"35,081",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 7,8/1/2019 15:06,13 Malvern Ave,42.400085,-71.128428
+"814,720",Rats,7/19/2019 9:32,"89,206",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 4,7/25/2019 16:06,7 Fremont St,42.3970143,-71.0988722
+"833,759",Rats,9/13/2019 16:09,"24,216",ISD Health,Closed,9/18/2019 8:10,Service Requests,Ward 2,9/18/2019 8:10,6 Oak St,42.3759393,-71.0966903
+"833,050",Rats,9/11/2019 17:47,"13,811",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 2,9/18/2019 15:06,146 Summer St,42.3858374,-71.1049071
+"820,135",Rats,8/2/2019 11:08,"24,727",ISD Health,Closed,8/2/2019 11:08,Service Requests,Ward 5,8/2/2019 11:08,44 Tennyson St,42.3926893,-71.0996149
+"824,486",Rats,8/16/2019 10:17,"122,028",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 1,8/21/2019 9:06,22 Otis St,42.3873151,-71.0883535
+"822,609",Rats,8/9/2019 16:32,"99,815",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 1,8/12/2019 15:06,11 Cutter St,42.3870743,-71.0838772
+"835,492",Rats,9/19/2019 19:38,"6,802",ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 2,9/26/2019 9:06,362 Lake St,42.380222,-71.100365
+"823,725",Rats,8/14/2019 11:18,"131,115",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 1,8/21/2019 15:10, NA,42.3827177,-71.09019758
+"824,747",Rats,8/17/2019 8:29,"139,958",ISD Health,Open,8/17/2019 8:29,Service Requests,Ward 5,,10 Henderson St,42.3954853,-71.1057891
+"815,367",Rats,7/22/2019 16:26,"137,982",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 6,7/25/2019 16:06,9 Pearson Rd,42.4009288,-71.1140058
+"815,303",Rats,7/22/2019 14:53,"21,444",ISD Health,Closed,7/25/2019 9:06,Service Requests,Ward 3,7/25/2019 9:06,25 Wesley Park,42.382839,-71.0971235
+"836,240",Rats,9/23/2019 16:48,"142,785",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 5,9/26/2019 15:06,84 Prichard Ave,42.397294,-71.1105122
+"824,450",Rats,8/16/2019 9:56,"23,775",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 5,8/21/2019 9:06,35 Hudson St,42.3900804,-71.1047679
+"814,818",Rats,7/19/2019 11:53,"137,793",ISD Health,Closed,7/25/2019 16:06,Service Requests,Ward 5,7/25/2019 16:06,14 Bartlett St,42.3924825,-71.1031895
+"824,349",Rats,8/15/2019 21:27,"87,314",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 3,8/21/2019 15:10,633 Somerville Ave,42.384495,-71.110794
+"822,700",Rats,8/10/2019 19:58,"2,962",ISD Health,Closed,8/12/2019 15:06,Service Requests,Ward 6,8/12/2019 15:06,6 William St,42.399113,-71.119865
+"834,165",Rats,9/16/2019 12:39,0,ISD Health,Closed,9/18/2019 8:11,Service Requests,Ward 5,9/18/2019 8:11,260 Summer St,42.39047069,-71.11362496
+"824,789",Rats,8/17/2019 18:39,"37,179",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 5,8/21/2019 15:11,96 Bartlett St,42.3950012,-71.1014254
+"833,891",Rats,9/14/2019 19:13,"138,913",ISD Health,Open,9/14/2019 19:13,Service Requests,Ward 1,,115 Pearl St,42.386017,-71.08654
+"821,257",Rats,8/6/2019 17:19,"90,722",ISD Health,Open,8/6/2019 17:19,Service Requests,Ward 3,,23 Summit Ave,42.3842407,-71.0964117
+"823,567",Rats,8/13/2019 20:32,"64,153",ISD Health,Closed,8/21/2019 15:10,Service Requests,Ward 3,8/21/2019 15:10,11 Boston St,42.380516,-71.090546
+"834,060",Rats,9/16/2019 10:25,"18,559",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 7,9/18/2019 15:06,66 Clarendon Ave,42.4016556,-71.1296031
+"825,756",Rats,8/21/2019 9:35,"32,743",ISD Health,Closed,8/21/2019 15:11,Service Requests,Ward 2,8/21/2019 15:11,335 Washington St,42.3795505,-71.1018036
+"820,716",Rats,8/5/2019 14:09,"95,877",ISD Health,Closed,8/7/2019 15:06,Service Requests,Ward 3,8/7/2019 15:06,149 Lowell St,42.3892505,-71.1083888
+"825,743",Rats,8/21/2019 9:26,"113,294",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 7,8/22/2019 15:06,24 Whitman St,42.402245,-71.123207
+"832,862",Rats,9/11/2019 11:58,0,ISD Health,Closed,9/11/2019 15:06,Service Requests,Ward 3,9/11/2019 15:06,50 Bow St,42.3813463,-71.0984776
+"827,358",Rats,8/26/2019 11:50,"59,113",ISD Health,Closed,8/29/2019 8:06,Service Requests,Ward 2,8/29/2019 8:06,14 Quincy St,42.3825687,-71.1009324
+"820,667",Rats,8/5/2019 13:13,"15,955",ISD Health,Open,8/5/2019 13:13,Service Requests,Ward 5,,62 Hudson St,42.3901985,-71.1061141
+"817,998",Rats,7/28/2019 23:02,"138,371",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 2,8/1/2019 15:06,29 Forest St,42.3851707,-71.1155661
+"836,257",Rats,9/23/2019 17:46,"93,361",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 4,9/26/2019 15:06,142 Jaques St,42.396087,-71.095998
+"829,791",Rats,9/1/2019 19:40,"1,890",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 1,9/5/2019 15:06,9 Montgomery Ave,42.39016,-71.0905
+"820,870",Rats,8/5/2019 20:02,"110,599",ISD Health,Closed,8/7/2019 8:06,Service Requests,Ward 2,8/7/2019 8:06,93 Marion St,42.3774068,-71.102869
+"814,691",Rats,7/19/2019 8:50,"62,281",ISD Health,Closed,7/19/2019 8:50,Service Requests,Ward 4,7/19/2019 8:50,81 Thurston St,42.3925988,-71.0966903
+"829,211",Rats,8/29/2019 21:01,"101,945",ISD Health,Closed,9/5/2019 15:06,Service Requests,Ward 2,9/5/2019 15:06,205 Tremont St,42.375301,-71.095802
+"819,466",Rats,8/1/2019 7:23,"138,697",ISD Health,Closed,8/1/2019 15:06,Service Requests,Ward 2,8/1/2019 15:06,400 Somerville Ave,42.3807777,-71.1015942
+"823,522",Rats,8/13/2019 16:09,"128,300",ISD Health,Closed,8/21/2019 8:06,Service Requests,Ward 3,8/21/2019 8:06,59 Munroe St,42.3821094,-71.093487
+"824,815",Rats,8/18/2019 13:57,"92,261",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 3,8/22/2019 15:06,37 Stone Ave,42.3808019,-71.0947405
+"833,881",Rats,9/14/2019 16:22,"22,845",ISD Health,Closed,9/14/2019 16:22,Service Requests,Ward 6,9/14/2019 16:22,25 Warner St,42.4017279,-71.1152128
+"822,783",Rats,8/12/2019 9:20,"104,302",ISD Health,Closed,8/21/2019 9:06,Service Requests,Ward 6,8/21/2019 9:06,19 Windom St,42.3934273,-71.1196228
+"818,509",Rats,7/29/2019 16:37,"73,791",ISD Health,Closed,8/1/2019 8:06,Service Requests,Ward 4,8/1/2019 8:06,58 Governor Winthrop Rd,42.3961824,-71.0877627
+"825,994",Rats,8/21/2019 14:45,"88,174",ISD Health,Closed,8/22/2019 15:06,Service Requests,Ward 5,8/22/2019 15:06,458 Medford St,42.3936098,-71.1017504
+"833,620",Rats,9/13/2019 11:25,"95,267",ISD Health,Closed,9/18/2019 15:06,Service Requests,Ward 3,9/18/2019 15:06,17 Madison St,42.38809871,-71.0990207
+"839,778",Rats,10/6/2019 19:28,"2,374",ISD Health,Closed,10/9/2019 8:06,Service Requests,Ward 2,10/9/2019 8:06,39 Houghton St,42.3751991,-71.0993385
+"836,964",Rats,9/25/2019 14:26,"139,633",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 2,9/26/2019 8:06,202 Washington St,42.3794234,-71.0914444
+"837,068",Rats,9/25/2019 19:32,0,ISD Health,Closed,9/25/2019 19:32,Service Requests,Ward 2,9/25/2019 19:32, Lincoln Pkwy,42.3778774,-71.0988935
+"838,154",Rats,9/30/2019 15:20,"143,260",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 7,10/9/2019 15:06,35 Waterhouse St,42.4049947,-71.1329091
+"842,024",Rats,10/15/2019 17:42,"131,275",ISD Health,Closed,10/16/2019 16:06,Service Requests,Ward 2,10/16/2019 16:06,15 Carlton St,42.3807,-71.1003
+"837,867",Rats,9/30/2019 7:18,"143,177",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 5,10/2/2019 15:06,60 Adams St,42.3952686,-71.100056
+"846,045",Rats,10/29/2019 19:46,"145,022",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 7,11/6/2019 15:06,98 W Quincy St,42.4100917,-71.1273987
+"837,462",Rats,9/26/2019 20:48,"6,802",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 2,10/2/2019 15:06,9 Hawkins St,42.380112,-71.098579
+"845,356",Rats,10/28/2019 8:37,"12,240",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 6,11/6/2019 15:06,60 Willow Ave,42.3932807,-71.1176731
+"851,801",Rats,11/21/2019 17:32,"2,518",ISD Health,Open,11/21/2019 17:32,Service Requests,Ward 3,,58 Bow St,42.3813849,-71.0990627
+"839,989",Rats,10/7/2019 11:54,"12,203",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,102 Prospect St,42.3752105,-71.096551
+"846,978",Rats,11/1/2019 10:37,211,ISD Health,Closed,11/1/2019 12:06,Service Requests,Ward 2,11/1/2019 12:06,23 Oak St,42.3760901,-71.0978264
+"841,064",Rats,10/10/2019 12:47,"130,894",ISD Health,Closed,10/16/2019 15:06,Service Requests,Ward 7,10/16/2019 15:06,8 Malvern Ave,42.3997665,-71.1282703
+"839,399",Rats,10/4/2019 7:23,"61,705",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 7,10/9/2019 15:06,79 Curtis St,42.4060239,-71.1251932
+"849,684",Rats,11/13/2019 11:13,"145,846",ISD Health,Closed,11/13/2019 13:06,Service Requests,Ward 5,11/13/2019 13:06,36 Albion St,42.3902555,-71.1044893
+"839,384",Rats,10/3/2019 19:32,"135,561",ISD Health,Closed,10/9/2019 10:06,Service Requests,Ward 2,10/9/2019 10:06,36 Adrian St,42.3771113,-71.0994292
+"837,054",Rats,9/25/2019 16:55,"143,015",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 1,9/26/2019 15:06, Cross St,42.3854034,-71.088031
+"836,783",Rats,9/25/2019 10:18,"15,500",ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 2,9/26/2019 9:06, Lincoln Pkwy,42.3778774,-71.0988935
+"845,700",Rats,10/29/2019 7:11,"11,349",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 5,11/6/2019 15:06,17 Cedar St,42.3885159,-71.1147485
+"837,072",Rats,9/25/2019 21:51,0,ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 1,9/26/2019 15:06,10 George St,42.3860811,-71.0800576
+"849,897",Rats,11/14/2019 8:58,"112,576",ISD Health,Open,11/14/2019 8:58,Service Requests,Ward 2,,25 Everett St,42.378658,-71.09478
+"840,931",Rats,10/9/2019 19:17,"137,866",ISD Health,Closed,10/10/2019 9:06,Service Requests,Ward 1,10/10/2019 9:06,50 Cross St,42.385953,-71.0865466
+"848,170",Rats,11/6/2019 9:17,"82,447",ISD Health,Closed,11/6/2019 12:06,Service Requests,Ward 2,11/6/2019 12:06,15 Adrian St,42.3774705,-71.0986517
+"847,729",Rats,11/4/2019 16:29,"78,639",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 5,11/6/2019 15:06,59 Adams St,42.395123,-71.099907
+"849,994",Rats,11/14/2019 12:05,"97,642",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 1,11/21/2019 15:06,34 Dana St,42.3879466,-71.0902798
+"849,005",Rats,11/8/2019 13:55,"145,702",ISD Health,Closed,11/14/2019 8:06,Service Requests,Ward 1,11/14/2019 8:06,25 Auburn Ave,42.3844907,-71.0906436
+"837,472",Rats,9/27/2019 7:27,"143,094",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 2,10/2/2019 15:06, Cypress St,42.383856,-71.1071176
+"847,028",Rats,11/1/2019 11:28,"70,574",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 3,11/6/2019 15:06,335 Somerville Ave,42.38078,-71.097997
+"842,733",Rats,10/17/2019 13:16,"101,097",ISD Health,Open,10/17/2019 13:16,Service Requests,Ward 5,,71 Albion St,42.391163,-71.10603
+"838,644",Rats,10/2/2019 8:08,"21,671",ISD Health,Closed,10/2/2019 10:06,Service Requests,Ward 2,10/2/2019 10:06,37 Adrian St,42.3773577,-71.0995685
+"840,228",Rats,10/8/2019 8:57,"6,515",ISD Health,Closed,10/9/2019 8:06,Service Requests,Ward 1,10/9/2019 8:06, Mt Vernon St,42.3841062,-71.0804061
+"850,624",Rats,11/18/2019 9:12,"6,989",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 7,11/21/2019 15:06,80 Cameron Ave,42.398538,-71.128562
+"837,839",Rats,9/29/2019 8:31,"11,457",ISD Health,Open,9/29/2019 8:31,Service Requests,Ward 2,, Dane St,42.3814478,-71.1040111
+"841,979",Rats,10/15/2019 15:38,"26,301",ISD Health,Closed,10/16/2019 8:06,Service Requests,Ward 2,10/16/2019 8:06, Fremont Ave,42.3786912,-71.100209
+"848,905",Rats,11/8/2019 10:47,0,ISD Health,Closed,11/21/2019 15:06,Service Requests,,11/21/2019 15:06, NA,(0.0,0
+"848,439",Rats,11/6/2019 18:39,"113,659",ISD Health,Closed,11/14/2019 8:06,Service Requests,Ward 1,11/14/2019 8:06,709 Mcgrath Hwy,42.3905874,-71.0868541
+"837,796",Rats,9/27/2019 21:02,"6,802",ISD Health,Closed,9/30/2019 9:06,Service Requests,Ward 2,9/30/2019 9:06,261 Washington St,42.379704,-71.096977
+"837,458",Rats,9/26/2019 20:14,"6,802",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 2,10/2/2019 15:06,24 Lake St,42.380138,-71.099464
+"845,304",Rats,10/27/2019 11:25,0,ISD Health,Closed,10/30/2019 16:06,Service Requests,Ward 1,10/30/2019 16:06,59 Pearl St,42.3845915,-71.0834594
+"847,835",Rats,11/5/2019 9:28,0,ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 1,11/6/2019 15:06,17 Otis St,42.3875162,-71.0880401
+"837,480",Rats,9/27/2019 8:08,"2,374",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 2,10/2/2019 15:06,39 Houghton St,42.3751991,-71.0993385
+"842,049",Rats,10/16/2019 7:15,"138,697",ISD Health,Closed,10/16/2019 16:06,Service Requests,Ward 6,10/16/2019 16:06, Willow Ave,42.3957611,-71.1156759
+"840,924",Rats,10/9/2019 18:12,"96,671",ISD Health,Closed,10/16/2019 15:06,Service Requests,Ward 4,10/16/2019 15:06,22 Jackson Rd,42.3893765,-71.0930228
+"845,471",Rats,10/28/2019 11:26,"144,877",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 2,11/6/2019 15:06, Bowdoin St,42.3787274,-71.1008456
+"843,375",Rats,10/18/2019 19:31,"113,659",ISD Health,Open,10/18/2019 19:31,Service Requests,Ward 4,,8 Fenwick St,42.3944313,-71.0958342
+"845,516",Rats,10/28/2019 12:09,0,ISD Health,Closed,10/30/2019 8:06,Service Requests,Ward 2,10/30/2019 8:06,18 Bowdoin St,42.3787238,-71.1008457
+"843,333",Rats,10/18/2019 16:32,"138,697",ISD Health,Open,10/18/2019 16:32,Service Requests,Ward 3,, Walnut St,42.3810447,-71.0972212
+"838,782",Rats,10/2/2019 11:41,"131,115",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,202 Washington St,42.3794234,-71.0914444
+"836,432",Rats,9/24/2019 11:31,0,ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 4,9/26/2019 8:06,58 Governor Winthrop Rd,42.3961824,-71.0877627
+"840,136",Rats,10/7/2019 16:04,"143,687",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06,4 Stickney Ave,42.3887068,-71.0956225
+"851,438",Rats,11/20/2019 15:33,"146,252",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 3,11/21/2019 15:06,353 Somerville Ave,42.3810799,-71.0985472
+"841,534",Rats,10/12/2019 13:37,"88,174",ISD Health,Closed,10/16/2019 16:06,internally generated,Ward 5,10/16/2019 16:06,458A Medford St,42.3936098,-71.1017504
+"849,180",Rats,11/10/2019 19:27,"44,028",ISD Health,Closed,11/14/2019 8:06,Service Requests,Ward 1,11/14/2019 8:06,15 Otis St,42.3875037,-71.0879162
+"851,249",Rats,11/20/2019 9:41,"43,348",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 1,11/21/2019 15:06,12 Mt Vernon St,42.3856409,-71.0789562
+"839,541",Rats,10/4/2019 11:40,"43,663",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06,56 Mt Vernon St,42.3839009,-71.0802799
+"845,273",Rats,10/26/2019 12:43,"86,204",ISD Health,Closed,10/29/2019 8:06,Service Requests,Ward 2,10/29/2019 8:06,61 Webster Ave,42.37599617,-71.09560132
+"847,758",Rats,11/4/2019 18:08,"8,084",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward NA,11/6/2019 15:06, NA,(0.0,0
+"847,760",Rats,11/4/2019 18:16,"65,154",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 5,11/6/2019 15:06,127 Central St,42.3915754,-71.1009148
+"846,516",Rats,10/30/2019 17:32,"106,509",ISD Health,Closed,10/31/2019 9:06,Service Requests,Ward 2,10/31/2019 9:06,82 Concord Ave,42.3761296,-71.1006362
+"836,470",Rats,9/24/2019 12:25,"19,826",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 1,9/26/2019 15:06,35 Franklin St,42.3848746,-71.0842486
+"837,822",Rats,9/28/2019 16:41,"62,447",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 1,10/2/2019 15:06,31 Florence St,42.38304235,-71.08293168
+"837,840",Rats,9/29/2019 8:53,0,ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 3,10/2/2019 15:06, Boston St,42.3798757,-71.090661
+"837,178",Rats,9/26/2019 10:39,"18,559",ISD Health,Closed,9/26/2019 15:06,Service Requests,Ward 7,9/26/2019 15:06,66 Clarendon Ave,42.4016556,-71.1296031
+"836,601",Rats,9/24/2019 15:37,"2,945",ISD Health,Open,9/24/2019 15:38,Service Requests,Ward 2,,20 Concord Ave,42.3765939,-71.0968295
+"842,766",Rats,10/17/2019 13:49,"36,817",ISD Health,Open,10/17/2019 13:49,Service Requests,Ward 4,,7 Bradford Ave,42.3923009,-71.0945084
+"841,571",Rats,10/13/2019 19:35,"143,995",ISD Health,Closed,10/16/2019 16:06,Service Requests,Ward 2,10/16/2019 16:06,14 Miller St,42.3841182,-71.1128917
+"848,795",Rats,11/7/2019 20:16,"26,661",ISD Health,Closed,11/21/2019 15:06,internally generated,Ward 4,11/21/2019 15:06,242 School St,42.3922579,-71.095344
+"846,805",Rats,10/31/2019 16:05,"145,207",ISD Health,Open,10/31/2019 16:05,Service Requests,Ward 6,,24 Liberty Ave,42.3999869,-71.1154449
+"837,855",Rats,9/29/2019 15:50,"6,785",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 4,10/2/2019 15:06,5 Meacham St,42.3976223,-71.095253
+"840,765",Rats,10/9/2019 11:39,"122,390",ISD Health,Closed,10/9/2019 11:39,Service Requests,Ward 4,10/9/2019 11:39,274 Broadway,42.391254,-71.0915238
+"851,497",Rats,11/21/2019 0:31,"146,267",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 4,11/21/2019 15:06,370 Medford St,42.3893361,-71.0975723
+"837,460",Rats,9/26/2019 20:19,"6,802",ISD Health,Closed,10/2/2019 8:06,Service Requests,Ward 2,10/2/2019 8:06,262 Washington St,42.37962,-71.096573
+"841,590",Rats,10/14/2019 10:38,"141,733",ISD Health,Closed,10/16/2019 8:06,Service Requests,Ward 2,10/16/2019 8:06,27 Dickinson St,42.3755,-71.101
+"846,527",Rats,10/30/2019 18:57,"29,384",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 1,11/6/2019 15:06,5 Chester Ave,42.3829013,-71.0905159
+"841,962",Rats,10/15/2019 15:14,"26,301",ISD Health,Closed,10/16/2019 16:06,Service Requests,Ward 2,10/16/2019 16:06,7-15 Parker St,42.3790508,-71.1003577
+"839,784",Rats,10/7/2019 7:17,"88,175",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06,7 Walter Terrace,42.3891484,-71.0932085
+"837,475",Rats,9/27/2019 7:52,"88,976",ISD Health,Closed,9/27/2019 8:06,Service Requests,Ward 2,9/27/2019 8:06,33 Marion St,42.377449,-71.100357
+"848,089",Rats,11/5/2019 17:26,"29,384",ISD Health,Closed,11/6/2019 8:06,Service Requests,Ward 1,11/6/2019 8:06,5 Chester Ave,42.3829013,-71.0905159
+"848,437",Rats,11/6/2019 18:25,"145,580",ISD Health,Open,11/6/2019 18:25,Service Requests,Ward 1,, Cross St E,42.3893512,-71.0851539
+"837,718",Rats,9/27/2019 15:19,0,ISD Health,Closed,9/27/2019 15:19,Service Requests,Ward 4,9/27/2019 15:19,5 Marshall St,42.3922739,-71.093371
+"840,800",Rats,10/9/2019 12:42,"140,474",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,63 Oak St,42.3753647,-71.0991971
+"845,076",Rats,10/25/2019 12:42,"15,317",ISD Health,Closed,10/30/2019 8:06,Service Requests,Ward 1,10/30/2019 8:06,11 Auburn Ave,42.38424,-71.0900981
+"840,386",Rats,10/8/2019 11:45,"131,115",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,22 Adrian St,42.3771569,-71.0988257
+"843,164",Rats,10/18/2019 11:46,"106,030",ISD Health,Open,10/18/2019 11:46,Service Requests,Ward 7,,41-43 Conwell Ave,42.4076418,-71.1266942
+"836,724",Rats,9/25/2019 8:39,"10,466",ISD Health,Closed,9/26/2019 8:06,Service Requests,Ward 3,9/26/2019 8:06,15 Wesley Park,42.3823346,-71.0972009
+"839,084",Rats,10/3/2019 9:53,"20,355",ISD Health,Open,11/12/2019 7:40,Service Requests,Ward 3,,52 Lowell St,42.3863092,-71.1108565
+"836,672",Rats,9/24/2019 20:24,"6,802",ISD Health,Closed,9/26/2019 9:06,Service Requests,Ward 2,9/26/2019 9:06, NA,42.379612,-71.096771
+"849,251",Rats,11/12/2019 8:55,"120,923",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 2,11/21/2019 15:06,7 Perry St,42.379071,-71.1015647
+"840,595",Rats,10/9/2019 8:08,"15,941",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 1,10/9/2019 15:06,12 Mt Vernon St,42.3856409,-71.0789562
+"838,555",Rats,10/1/2019 15:36,"16,348",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 6,10/2/2019 15:06,154 Morrison Ave,42.3963387,-71.1177659
+"850,869",Rats,11/18/2019 19:43,0,ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 4,11/21/2019 15:06,19-21 Sewall St,42.3929847,-71.0914907
+"842,947",Rats,10/17/2019 18:01,"15,317",ISD Health,Open,10/17/2019 18:01,Service Requests,Ward 1,,11 Auburn Ave,42.38424,-71.0900981
+"848,649",Rats,11/7/2019 12:36,"142,268",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 3,11/21/2019 15:06,156 School St,42.3880358,-71.0981062
+"841,896",Rats,10/15/2019 13:35,"19,313",ISD Health,Closed,10/16/2019 8:06,Service Requests,Ward 4,10/16/2019 8:06,5 Meacham St,42.3976672,-71.0954136
+"845,239",Rats,10/25/2019 21:42,"105,526",ISD Health,Closed,10/30/2019 8:06,Service Requests,Ward 1,10/30/2019 8:06,73 Gilman St,42.3859057,-71.0918158
+"851,494",Rats,11/20/2019 20:19,"96,006",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 1,11/21/2019 15:06,17 Wheeler St,42.3845,-71.081
+"838,786",Rats,10/2/2019 11:47,"18,559",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 7,10/2/2019 15:06,66 Clarendon Ave,42.4016556,-71.1296031
+"838,800",Rats,10/2/2019 12:04,0,ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 4,10/9/2019 15:06,92-94 Marshall St,42.388336,-71.095318
+"850,576",Rats,11/17/2019 13:18,"109,930",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 4,11/21/2019 15:06,15 Temple St,42.392891,-71.092369
+"837,719",Rats,9/27/2019 15:22,"122,390",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 4,10/2/2019 15:06,14 Kenneson Rd,42.3906891,-71.0917055
+"840,727",Rats,10/9/2019 10:38,"103,043",ISD Health,Closed,10/16/2019 15:06,Service Requests,Ward 2,10/16/2019 15:06,50 Kent St,42.3822306,-71.1105242
+"849,297",Rats,11/12/2019 10:10,"92,513",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 1,11/21/2019 15:06,73 Mt Vernon St,42.3831219,-71.0813703
+"847,610",Rats,11/4/2019 14:06,"131,115",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 3,11/6/2019 15:06,52 Lowell St,42.3863092,-71.1108565
+"841,247",Rats,10/10/2019 19:04,"143,925",ISD Health,Closed,10/16/2019 15:06,Service Requests,Ward 1,10/16/2019 15:06,87 Gilman St,42.3861513,-71.092222
+"847,250",Rats,11/1/2019 20:24,"50,987",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 1,11/6/2019 15:06,13 Wesley St,42.387371,-71.090866
+"841,576",Rats,10/13/2019 20:57,0,ISD Health,Closed,10/16/2019 16:06,Service Requests,Ward 1,10/16/2019 16:06,21 Dell St,42.3832258,-71.0889375
+"847,026",Rats,11/1/2019 11:25,"70,574",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 3,11/6/2019 15:06, Atherton St,42.3847448,-71.1079933
+"841,137",Rats,10/10/2019 14:38,"143,895",ISD Health,Closed,10/16/2019 15:06,Service Requests,Ward 1,10/16/2019 15:06,12 Fountain Ave,42.3835943,-71.0887054
+"837,459",Rats,9/26/2019 20:16,"6,802",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 2,10/2/2019 15:06,14 Kilby St,42.380203,-71.098701
+"839,812",Rats,10/7/2019 8:24,"139,243",ISD Health,Open,10/7/2019 8:24,Service Requests,Ward 1,,105 Walnut St,42.38679934,-71.09335268
+"841,572",Rats,10/13/2019 19:46,"46,466",ISD Health,Closed,10/16/2019 8:06,Service Requests,Ward 2,10/16/2019 8:06,6 Miller St,42.3839666,-71.1127223
+"837,844",Rats,9/29/2019 11:26,"143,169",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 1,10/2/2019 15:06,9 Sunnyside Ave,42.3885,-71.0918
+"847,635",Rats,11/4/2019 14:30,"116,799",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 6,11/6/2019 15:06,17 Wallace St,42.3984403,-71.1229186
+"851,078",Rats,11/19/2019 13:57,"19,226",ISD Health,Closed,11/19/2019 13:57,Service Requests,Ward 3,11/19/2019 13:57, Highland Ave,42.3868313,-71.0987169
+"837,793",Rats,9/27/2019 20:01,"143,157",ISD Health,Closed,10/2/2019 15:06,Service Requests,Ward 5,10/2/2019 15:06,232 Cedar St,42.3960702,-71.1098743
+"839,780",Rats,10/7/2019 6:51,"130,506",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 3,10/9/2019 15:06,359 Somerville Ave,42.381153,-71.098824
+"837,463",Rats,9/26/2019 21:28,"143,092",ISD Health,Closed,9/26/2019 21:28,Service Requests,Ward 4,9/26/2019 21:28,17 Sewall St,42.3929496,-71.0913516
+"851,821",Rats,11/21/2019 19:03,0,ISD Health,Open,11/21/2019 19:03,Service Requests,Ward 1,,35 Otis St,42.38783123,-71.08884932
+"838,652",Rats,10/2/2019 8:23,"7,030",ISD Health,Closed,10/9/2019 15:06,Service Requests,Ward 2,10/9/2019 15:06,5 Leon St,42.3756925,-71.1010656
+"845,784",Rats,10/29/2019 10:34,"84,532",ISD Health,Open,10/29/2019 10:34,Service Requests,Ward 5,,41 Main St,42.3961611,-71.0988722
+"847,282",Rats,11/2/2019 16:48,"145,317",ISD Health,Closed,11/6/2019 15:06,Service Requests,Ward 2,11/6/2019 15:06,25 Lake St,42.3803105,-71.0994757
+"850,181",Rats,11/14/2019 22:09,"130,161",ISD Health,Closed,11/21/2019 15:06,Service Requests,Ward 4,11/21/2019 15:06,126 Walnut St,42.38827456,-71.09290112
+"841,873",Rats,10/15/2019 13:13,"47,260",ISD Health,Closed,10/15/2019 16:06,Service Requests,Ward 1,10/15/2019 16:06,24 Webster St,42.3857337,-71.0854789
+"842,938",Rats,10/17/2019 17:35,"55,524",ISD Health,Open,10/17/2019 17:35,Service Requests,Ward 2,, Rossmore St,42.3788121,-71.0912187
