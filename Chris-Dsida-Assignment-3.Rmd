@@ -1,13 +1,14 @@
 ---
 title: "Areas and Locations"
 author: "Chris Dsida"
-date: "9/27/2020"
+date: "9/30/2020"
 output:
   rmarkdown::html_document:
     theme: paper
 ---
 
 ```{r, load packages, results='hide', message=FALSE, warning=FALSE}
+# Loading packages
 library(sf)
 library(tidyverse)
 library(ggthemes)
@@ -16,10 +17,16 @@ library(units)
 library(nngeo)
 ```
 
+
+In this assignment, I downloaded data from the Somerville open data portal. For polygons, I chose zones designated as "Neighborhood Residential" and neighborhoods designated as "squares" (Union Square, Porter Square, Teele Square, etc.). For points, I chose the locations of 311 reports of rats in 2019, as well as the centroids of open spaces (parks, community gardens, natural areas, etc.)
+
+
 ```{r, load data, warning=FALSE}
+# Loading data
 MA_state_plane <- "+proj=lcc +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs"
 
-NAD_83 <- "+proj=latlong +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000.0000000001 +ellps=GRS80 +datum=NAD83 +no_defs "
+som_border <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/CityLimits/CityLimits.shp", quiet = TRUE) %>%
+  st_transform(MA_state_plane)
 
 nr_zoning <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/Zoning/Zoning.shp", quiet = TRUE) %>%
   filter(ZoneCode == "NR") %>%
@@ -33,25 +40,266 @@ op_space <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3
   st_transform(MA_state_plane) %>%
   st_centroid()
 
+op_space_area <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/OpenSpace/OpenSpace.shp", quiet = TRUE) %>%
+  st_transform(MA_state_plane)
 
-
-```
-```{r}
 rat_calls <- read.csv("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/ratcalls.csv") %>%
   filter(street_address != " NA") %>% 
-  st_as_sf(coords = c("lat", "long"), crs = NAD_83)
-
-ggplot() +
-  geom_sf(data = sq_nhoods) +
-  geom_sf(data = rat_calls)
-
-
+  st_as_sf(coords = c("lat", "long"), crs = "+proj=latlong") %>%
+  st_transform(MA_state_plane)
 ```
+
+
+To start things off, I plotted everything on the same map. Squares are dark gray, neighborhood residential zones are light gray, rat reports are in brown, and open spaces in blue.
 
 
 ```{r}
 ggplot() +
-  geom_sf(data = nr_zoning) +
-  geom_sf(data = op_space)
+  geom_sf(data = som_border, fill = NA, linetype = "dashed") +
+  geom_sf(data = sq_nhoods, fill = "gray60", color = NA) +
+  geom_sf(data = nr_zoning, fill = "gray90", color = NA) +
+  geom_sf(data = op_space, color = "dodgerblue", size = 1.5)+
+  geom_sf(data = rat_calls, color = "tan4", size = 1) +
+  theme_map() +
+  annotation_scale(aes(width_hint = 0.3, style = "ticks"))
 ```
 
+
+## Number and Proportion of 311 Rat Reports withing 100m of Open Spaces
+
+To start things off, I want to figure out how may of the 311 reports about rats were close to public open spaces. A map of these is shown below. It also incorporates one of the funnier variable names I've had to create: `space_rats`
+
+```{r}
+op_space_buffer <- st_buffer(op_space, dist = 100) %>%
+  st_union()
+
+space_rats <- rat_calls[op_space_buffer,]
+
+ggplot() +
+  geom_sf(data = som_border, fill = NA, linetype = "dashed") +
+  geom_sf(data = op_space_buffer) +
+  geom_sf(data = space_rats,
+          color = "tan4") +
+  theme_map()
+
+```
+
+
+However, when I tried to calculate the number/proportion of total 311 rat reports that these constitute, I had some issues with the spatial join. Entries weren't matching correctly and it wound up overstating the actual number of reports with some duplication.
+
+
+```{r}
+rat_calls_real <- rat_calls
+
+rat_calls <- rat_calls %>%
+  st_join(space_rats) %>%
+  mutate(by_space = !is.na(issue_type.y))
+
+n_space_rats_fake <- sum(rat_calls$by_space)
+```
+
+
+I ended up resorting to this somewhat inelegant (but functional) solution:
+
+
+```{r}
+n_space_rats = length(space_rats$issue_type)
+n_rat_calls = length(rat_calls$issue_type.x) - n_space_rats
+pct_space_rats = n_space_rats / n_rat_calls
+```
+
+
+In any event, this doesn't affect the mapping of these features. This first one has the correct number of 311 rat reports near open spaces, while the second uses the incorrect calculation. They don't appear to be different in any meaningful way.
+
+
+```{r}
+ggplot() +
+  geom_sf(data = som_border, fill = NA, linetype = "dashed") +
+  geom_sf(data = op_space_area, color = NA) +
+  geom_sf(data = rat_calls, color = "tan") +
+  geom_sf(data = space_rats, color = "tan4") +
+  theme_map()
+```
+
+
+Additionally, in these maps, I decided to represent open spaces with their respective areas instead of centroid locations.
+
+
+```{r}
+right_side  <- st_bbox(rat_calls)$xmax
+top_side <- st_bbox(rat_calls)$ymax
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = op_space_area, 
+          color = NA) +
+  geom_sf(data = rat_calls, 
+          aes(color = by_space)) +
+  scale_color_manual(values = c("tan", "tan4"),
+                     name = "Somerville 311 reports of rats \nby proximity to open space",
+                     labels =  c("Not within 100m of open space", "Within 100m of open space")) +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks")) +
+  annotate(geom = "text", x = (right_side - 1700), 
+           y = top_side, 
+           label = paste("Of the ", 
+                         prettyNum(n_rat_calls, big.mark = ","),
+                         " reports to Somerville 311 \nabout rats, ", 
+                         prettyNum(n_space_rats, big.mark = ","),
+                         " (", 
+                         prettyNum(100*pct_space_rats, digits = 0),
+                         "%) are within \n100 meters of public open space.",
+                         sep = ""),
+           hjust = 0, vjust = 0, size = 3) +
+  theme_map() +
+  theme(legend.background = element_rect(fill = alpha("white", 0)))
+```
+
+
+## Number of Open Spaces within "Square Neighborhoods"
+
+
+For my next plot, I calculated the number of open spaces in each of Somervilles squares.
+
+
+```{r}
+sq_nhoods <- sq_nhoods %>%
+  mutate(n_op_space = lengths(st_covers(sq_nhoods, op_space)))
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = sq_nhoods,
+          color = NA, 
+          aes(fill = n_op_space)) +
+  scale_fill_viridis_c(name = "Somerville \"square\" \nneighborhoods by \nnumber of open \nspaces") +
+theme_map() +
+  theme(legend.background = element_rect(fill = alpha("white", 0))) +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks"))
+```
+
+
+
+## Number of 311 Rat Reports within Somerville's Squares
+
+
+Similar to the previous map, I decided to look at how many 311 rat reports ocurred within each "square" neighborhood. Shoutout to Union Square! (where I live) We've definitely seen a ton of rats recently.
+
+
+```{r}
+sq_nhoods <- sq_nhoods %>%
+  mutate(num_rat_calls = lengths(st_covers(sq_nhoods, rat_calls_real)))
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = sq_nhoods,
+          color = NA, 
+          aes(fill = num_rat_calls)) +
+  scale_fill_viridis_c(name = "Somerville \"square\" \nneighborhoods by \nnumber of 311 \nreports about rats") +
+theme_map() +
+  theme(legend.background = element_rect(fill = alpha("white", 0))) +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks"))
+```
+
+
+## Distance from Open Spaces to Nearest 311 Rat Reports
+
+
+In the next map, I wanted to see how far away from open spaces rats are typically reported to the city's 311 system. This calculation is done in the next code block...
+
+
+```{r, results='hide', message=FALSE}
+op_space <- op_space %>%
+  mutate(rat_dist = st_nn(op_space, rat_calls_real,
+                          returnDist = TRUE)$dist) %>%
+  mutate(rat_dist = as.numeric(rat_dist))
+
+avg_rat_dist <- mean(op_space$rat_dist)
+```
+
+
+...then mapped in the next one. It seems like Somerville residents are seeing rats everywhere (relative to public open spaces) except for near Assembly Square.
+
+
+```{r}
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = op_space,
+          aes(color = rat_dist)) +
+  scale_color_viridis_c(name = "Open spaces by \ndistance to nearest \n311 rat report") +
+  theme_map() +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks"))
+```
+
+
+## Neighborhood Residential Zones within Somerville's Squares
+
+
+Pivoting to something other than rats: I wanted to see how many residential zones were part of the neighborhoods designated as squares. This isn't particularly interesting, but it was good practice using some other tools for spatial analysis.
+
+
+```{r}
+nr_zoning <- nr_zoning %>%
+  mutate(num_square = lengths(st_intersects(nr_zoning, sq_nhoods))) %>%
+  mutate(in_square = num_square > 0)
+
+n_square_zones <- sum(nr_zoning$in_square)
+```
+
+```{r}
+right_side  <- st_bbox(som_border)$xmax
+top_side <- st_bbox(som_border)$ymax
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = nr_zoning,
+          aes(fill = in_square),
+          color = NA) +
+  scale_fill_manual(values = c("gray80", "steelblue"),
+          name = "Somerville Neighborhood \nResidential zones within \na \"square\"", 
+          labels = c("Neighborhood Res. zone \nnot overlapping a square",
+                     "Neighborhood Res. zone \noverlapping a square")) +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks")) +
+  annotate(geom = "text", x = (right_side - 1900), 
+           y = top_side - 1000, 
+           label = paste(n_square_zones ,
+                         " of Somerville's ", 
+                         length(nr_zoning$OBJECTID),
+                         " \nNeighborhood Residential zones \nare in a neighborhood designated \nas a square",
+                         sep = ""),
+           hjust = 0, vjust = 0, size = 3) +
+  theme_map() +
+  theme(legend.background = element_rect(fill = alpha("white", 0)))
+```
+
+
+## Density of 311 Rat Reports in Somerville's Squares
+
+
+Aaand back to rats for my final map. In this one, I wanted to see which squares have the highest density of 311 rat reports. It's pretty clear that Union Square is the undisputed winner of the Somerville Rat Capital World Championship here. (yaaaayyyy :D)
+
+
+```{r}
+sq_nhoods <- sq_nhoods %>%
+  mutate(area = set_units(st_area(sq_nhoods), km^2)) %>%
+  mutate(rat_dens = as.numeric(num_rat_calls / area))
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = sq_nhoods,
+          color = NA,
+          aes(fill = rat_dens)) +
+  scale_fill_continuous(name = "Number of 311 rat \nreports per square km") +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks")) +
+  theme_map()
+```
