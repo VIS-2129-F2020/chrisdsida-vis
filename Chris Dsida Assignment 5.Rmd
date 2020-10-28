@@ -1,0 +1,48 @@
+---
+title: "Georeferencing Images"
+author: "Chris Dsida"
+date: "10/16/2020"
+output:
+  rmarkdown::html_document:
+    theme: paper
+---
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+# Loading Packages
+
+library(osmdata)
+library(opentripplanner)
+library(tidyverse)
+library(sf)
+library(ggthemes)
+library(ggspatial)
+library(raster)
+library(RStoolbox)
+```
+
+```{r}
+cambridge_street_features <- opq(bbox = 'Cambridge MA USA') %>%
+  add_osm_feature(key = 'highway') %>%
+  osmdata_sf()
+
+cambridge_streets <- cambridge_street_features$osm_lines 
+```
+
+```{r}
+nhood_image <- stack("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-5-data/camberville.tif") %>%
+  projectRaster(crs = '+proj=longlat')
+
+ggRGB(nhood_image, r = 1, g = 2, b = 3)
+```
+
+```{r}
+ggplot(cambridge_streets) +
+  ggRGB(nhood_image, 
+        r = 1, g = 2, b = 3, ggLayer = TRUE) +
+  geom_sf(alpha = 0.1) +
+  coord_sf(xlim = c(nhood_image@extent@xmin, nhood_image@extent@xmax),
+           ylim = c(nhood_image@extent@ymin, nhood_image@extent@ymax)) +
+  annotation_scale() +
+  theme_map() +
+  labs(caption = "Street netowrk data Copyright OpenStreetMap contributors")
+```

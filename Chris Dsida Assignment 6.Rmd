@@ -1,0 +1,71 @@
+---
+title: "Interactive Maps"
+author: "Chris Dsida"
+date: "10/26/2020"
+output:
+  rmarkdown::html_document:
+    theme: paper
+---
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+# Loading Packages
+
+library(tidyverse)
+library(sf)
+library(leaflet)
+library(htmltools)
+library(htmlwidgets)
+library(tidytransit)
+```
+
+```{r}
+leaflet_proj <- "+proj=longlat +datum=WGS84"
+
+mbta_sys <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/mbta_rapid_transit/MBTA_ARC.shp", quiet = TRUE) %>%
+  st_transform(crs = leaflet_proj)
+
+gl <- filter(mbta_sys, LINE == "GREEN")
+
+rl <- filter(mbta_sys, LINE == "RED")
+
+ol <- filter(mbta_sys, LINE == "ORANGE")
+
+bl <- filter(mbta_sys, LINE == "BLUE")
+
+#sl <- filter(mbta_sys, LINE == "SILVER")
+
+```
+
+```{r}
+mbta_map <- leaflet() %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addPolylines(data = gl, 
+               opacity = 1, 
+               color = "green", 
+               highlightOptions = highlightOptions(color = "darkgreen", opacity = 1),
+               popup = ~LINE) %>%
+  addPolylines(data = rl, 
+               opacity = 1, 
+               color = "red", 
+               highlightOptions = highlightOptions(color = "darkred", opacity = 1),
+               popup = ~LINE) %>%
+  addPolylines(data = ol, 
+               opacity = 1, 
+               color = "orange", 
+               highlightOptions = highlightOptions(color = "brown", opacity = 1),
+               popup = ~LINE) %>%
+  addPolylines(data = bl, 
+               opacity = 1, 
+               color = "blue", 
+               highlightOptions = highlightOptions(color = "darkblue", opacity = 1),
+               popup = ~LINE) %>%
+  addControl("Current MBTA Rapid Transit", position = "topright") %>%
+  addControl('<a href="https://hub.arcgis.com/datasets/massgis::mbta-rapid-transit-lines?geometry=-71.468%2C42.330%2C-70.595%2C42.419">Data source</a>',
+             position = "bottomleft")
+
+mbta_map
+```
+
+```{r}
+saveWidget(mbta_map, file = "mbtamap.html")
+```
