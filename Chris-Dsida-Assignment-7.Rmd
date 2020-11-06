@@ -1,0 +1,215 @@
+---
+title: "Raster Interpolation"
+author: "Chris Dsida"
+date: "11/6/2020"
+output:
+  rmarkdown::html_document:
+    theme: paper
+---
+
+```{r, load packages, results='hide', message=FALSE, warning=FALSE}
+# Loading packages
+library(sf)
+library(tidyverse)
+library(ggthemes)
+library(ggspatial)
+library(units)
+library(nngeo)
+library(geosphere)
+library(raster)
+library(gstat)
+library(leaflet)
+```
+
+
+After showing all the visualization techniques, I will then discuss their respective advantages and disadvantages.
+
+
+```{r, load data, results='hide', message=FALSE, warning=FALSE}
+# Loading data
+MA_state_plane <- "+proj=lcc +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs"
+
+som_border <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/CityLimits/CityLimits.shp", quiet = TRUE) %>%
+  st_transform(MA_state_plane)
+
+nhoods <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/Neighborhoods/Neighborhoods.shp", quiet = TRUE) %>%
+  st_transform(MA_state_plane)
+
+rat_calls <- read.csv("C:/Users/chris/Documents/Github/chrisdsida-vis/Assignment-3-data/ratcalls.csv") %>%
+  filter(street_address != " NA") 
+  
+rat_calls <- cbind(rat_calls, neighbors=rowSums(distm(rat_calls[13:12], fun=distGeo) <= 400)) %>%
+  st_as_sf(coords = c("lat", "long"), crs = "+proj=latlong") %>%
+  st_transform(MA_state_plane)
+```
+
+
+In this assignment, I will be using the same dataset as Assignment 3: reports of rats in Somerville's 311 system. I'll start off by plotting them below. Most are concentrated in the Union Square area.
+
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+# Plot 311 rat calls
+ggplot() +
+  geom_sf(data = som_border, fill = NA, linetype = "dashed") +
+  geom_sf(data = nhoods, fill = "gray90") +
+  geom_sf(data = rat_calls, color = "tan4", size = 1) +
+  theme_map() +
+  annotation_scale(aes(width_hint = 0.3, style = "ticks"))
+```
+
+
+## Number of 311 Rat Reports within Somerville's Neighborhoods (Zones)
+
+
+Determining how many reports of rats are within each neighborhood is straightforward, and follows the same process that I used in Assignment 3. Here's what that looks like. Again, Union Square (bottom left) clearly has the greatest number of rat reports.  
+
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+nhoods <- nhoods %>%
+  mutate(num_rat_calls = lengths(st_covers(nhoods, rat_calls)))
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = nhoods,
+          color = NA, 
+          aes(fill = num_rat_calls)) +
+  scale_fill_continuous(name = "Somerville \nneighborhoods by \nnumber of 311 \nreports about rats") +
+theme_map() +
+  theme(legend.background = element_rect(fill = alpha("white", 0))) +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks"))
+```
+
+
+## Number of 311 Rat Reports at Neighborhood Centroids (Points)
+
+
+We can also display the same information as points, located at the centroids of Somerville's 19 neighborhoods. Not to get too far ahead of myself, but I did not find this map to be particularly informative. 
+
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+nhood_points <- st_centroid(nhoods)
+
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = nhood_points,
+          size = 3,
+          aes(color = num_rat_calls)) +
+  scale_color_continuous(name = "Somerville \nneighborhoods by \nnumber of 311 \nrat reports") +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks")) +
+  theme_map()
+```
+
+
+## Estimated Number of 311 Rat Reports (Surface)
+
+
+With the neighborhood centroids, we can use inverse distance weighted interpolation to create a raster image. This next code block transforms the data into the correct format, then generates the raster interpolation.
+
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+rat_calls_sp <- rat_calls %>%
+  st_transform(MA_state_plane) %>%
+  as_Spatial()
+
+nhoods_sp <- nhoods %>%
+  st_transform(MA_state_plane) %>%
+  as_Spatial()
+
+som_raster <- raster(nhoods, res = 10)
+
+nhood_points_sp <- nhood_points %>%
+  st_transform(MA_state_plane) %>%
+  as_Spatial()
+
+gs <- gstat(formula = num_rat_calls~1, locations = nhood_points_sp)
+idw_interp <- interpolate(som_raster, gs)
+
+idw_interp_clip <- mask(idw_interp, nhoods_sp)
+```
+
+
+I then can display this in a Leaflet map. Looks like it works!*
+
+
+*the "warning=FALSE" option is doing a lot here
+
+
+```{r, message=FALSE, warning=FALSE}
+pal <- colorNumeric("viridis", 
+                    domain = nhoods$num_rat_calls,
+                    na.color = "#00000000")
+
+leaflet(nhood_points) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addRasterImage(idw_interp_clip, colors = pal, opacity = 0.5) %>%
+  addLegend(pal = pal,
+            values = ~num_rat_calls,
+            bins = 5,
+            opacity = 0.7, title = "Estimated 311 rat reports",
+            position = "topright")
+```
+
+
+## An Alternative Heatmap Method
+
+
+As another way of displaying the density of rat reports, I decided to use a different set of locations and input for interpolation. When importing the .csv with my data, I calculated the number of other reports within a 400m radius, giving me an index for density at every point. The values correspond to the number of rat sightings in an area of roughly 0.5 km^2. You can see the results of this in the next map.
+
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+ggplot() +
+  geom_sf(data = som_border, 
+          fill = NA, 
+          linetype = "dashed") +
+  geom_sf(data = rat_calls,
+          aes(color = neighbors)) +
+  scale_color_continuous(name = "Density of rat reports") +
+  annotation_scale(aes(location = "br", width_hint = 0.3, style = "ticks")) +
+  theme_map()
+```
+
+
+With this new density index, I created a new raster with the same method as before...
+
+
+```{r, results='hide', message=FALSE, warning=FALSE}
+gs2 <- gstat(formula = neighbors~1, locations = rat_calls_sp)
+idw_interp2 <- interpolate(som_raster, gs2)
+
+idw_interp_clip2 <- mask(idw_interp2, nhoods_sp)
+```
+
+
+...and mapped it in Leaflet.
+
+
+```{r, message=FALSE, warning=FALSE}
+pal2 <- colorNumeric("viridis", 
+                    domain = nhoods$neighbors,
+                    na.color = "#00000000")
+
+leaflet(rat_calls_sp) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addRasterImage(idw_interp_clip2, colors = pal2, opacity = 0.5) %>%
+  addLegend(pal = pal2,
+            values = ~neighbors,
+            bins = 5,
+            opacity = 0.7, title = "Estimated rat report density",
+            position = "topright")
+```
+
+
+## Discussion of Techniques
+
+
+Depending what the goal is, I would say that displaying rat reports by neighborhood or the density raster (second interpolated map) would be most informative. If we want to coordinate some sort of intervention to minimized any negative quality-of-life problems from rats, it might be helpful to target those by neighborhood or other administrative zones. On the other hand, if we are trying to understand what the rat habitat looks like in Somerville, the density map may be the better option. Though rats are likely living in human structures, I think it is reasonable to assume that the population follows a smooth(ish) distribution across the city.
+
+
+That being said, the interpolation using neighborhood centroids is probably the best-looking representation (in my opinion, at least). It makes the hotspot in Union Square look especially dramatic in comparison with the lack of rat reports in the northwestern parts of the city. The alternative interpolation likely just has too many points clustered together to make that kind of contrast visible. 
+
+
+However, even though the density raster interpolation is slightly less visually attractive, I believe this tradeoff is worth it. Interpolation is certainly an appropriate technique for estimating the rat habitat in Somerville, and it presents the data in a clear way. For that reason, I would say that it is "the best" of these options.
