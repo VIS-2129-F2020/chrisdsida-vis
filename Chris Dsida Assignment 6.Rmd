@@ -24,6 +24,13 @@ leaflet_proj <- "+proj=longlat +datum=WGS84"
 mbta_sys <- st_read("C:/Users/chris/Documents/Github/chrisdsida-vis/mbta_rapid_transit/MBTA_ARC.shp", quiet = TRUE) %>%
   st_transform(crs = leaflet_proj)
 
+mbta_sys$type <- case_when(mbta_sys$GRADE == 1 ~ "Above Ground, Private ROW",
+                           mbta_sys$GRADE == 2 ~ "Light Rail with Reservation in Street",
+                           mbta_sys$GRADE == 3 ~ "Light Rail with Traffic",
+                           mbta_sys$GRADE == 4 ~ "Elevated",
+                           mbta_sys$GRADE == 6 ~ "Open Cut",
+                           mbta_sys$GRADE == 7 ~ "Underground Subway")
+
 gl <- filter(mbta_sys, LINE == "GREEN")
 
 rl <- filter(mbta_sys, LINE == "RED")
@@ -43,22 +50,22 @@ mbta_map <- leaflet() %>%
                opacity = 1, 
                color = "green", 
                highlightOptions = highlightOptions(color = "darkgreen", opacity = 1),
-               popup = ~LINE) %>%
+               popup = ~type) %>%
   addPolylines(data = rl, 
                opacity = 1, 
                color = "red", 
                highlightOptions = highlightOptions(color = "darkred", opacity = 1),
-               popup = ~LINE) %>%
+               popup = ~type) %>%
   addPolylines(data = ol, 
                opacity = 1, 
                color = "orange", 
                highlightOptions = highlightOptions(color = "brown", opacity = 1),
-               popup = ~LINE) %>%
+               popup = ~type) %>%
   addPolylines(data = bl, 
                opacity = 1, 
                color = "blue", 
                highlightOptions = highlightOptions(color = "darkblue", opacity = 1),
-               popup = ~LINE) %>%
+               popup = ~type) %>%
   addControl("Current MBTA Rapid Transit", position = "topright") %>%
   addControl('<a href="https://hub.arcgis.com/datasets/massgis::mbta-rapid-transit-lines?geometry=-71.468%2C42.330%2C-70.595%2C42.419">Data source</a>',
              position = "bottomleft")
