@@ -39,9 +39,9 @@ Below is the one-time code to set up OpenStreetMap. I left it in my code (but co
 
 
 ```{r}
-# opq(bbox = 'Somerville MA USA') %>%
-#  add_osm_feature(key = 'highway') %>%
-#  osmdata_xml(file = 'OTP/graphs/default/somerville_streets.osm')
+opq(bbox = 'Somerville MA USA') %>%
+  add_osm_feature(key = 'highway') %>%
+  osmdata_xml(file = 'OTP/graphs/default/somerville_streets.osm')
 ```
 
 
@@ -76,7 +76,7 @@ Another remnant of the original time I ran the code, commented out. Maybe I just
 
 
 ```{r}
-# path_otp <- otp_dl_jar("OTP")
+path_otp <- otp_dl_jar("OTP")
 ```
 
 
