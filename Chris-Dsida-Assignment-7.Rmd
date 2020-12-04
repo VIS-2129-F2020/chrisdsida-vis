@@ -22,7 +22,7 @@ library(leaflet)
 ```
 
 
-After showing all the visualization techniques, I will then discuss their respective advantages and disadvantages.
+After showing all the visualization techniques, I will then discuss their respective advantages and disadvantages.Testing a change
 
 
 ```{r, load data, results='hide', message=FALSE, warning=FALSE}
